@@ -21,12 +21,13 @@ const cancionesPorFecha = {
 }
 
 interface PageProps {
-  params: {
+  params: Promise<{
     fecha: string
-  }
+  }>
 }
 
-export default function FechaCancionesPage({ params }: PageProps) {
+export default async function FechaCancionesPage(props: PageProps) {
+  const params = await props.params;
   const fechaData = cancionesPorFecha[params.fecha as keyof typeof cancionesPorFecha]
 
   if (!fechaData) {
@@ -40,10 +41,10 @@ export default function FechaCancionesPage({ params }: PageProps) {
         <div className="max-w-6xl mx-auto px-4 py-6">
           <div className="flex items-center space-x-4">
             <Button variant="ghost" size="sm" asChild>
-              <Link href="/canciones">
+              {/* <Link href="/canciones">
                 <ArrowLeft className="w-4 h-4 mr-2" />
                 Volver a Fechas
-              </Link>
+              </Link> */}
             </Button>
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
@@ -102,7 +103,7 @@ export default function FechaCancionesPage({ params }: PageProps) {
           {/* Navegación adicional */}
           <div className="mt-12 text-center">
             <Button variant="outline" asChild>
-              <Link href="/canciones">Ver otras fechas</Link>
+              {/* <Link href="/canciones">Ver otras fechas</Link> */}
             </Button>
           </div>
         </div>

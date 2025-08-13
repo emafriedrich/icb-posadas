@@ -1,4 +1,5 @@
-"use client";
+"use client";;
+import { use } from "react";
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -184,13 +185,14 @@ de su poder y su infinito amor:`,
 };
 
 interface PageProps {
-  params: {
+  params: Promise<{
     fecha: string;
     id: string;
-  };
+  }>;
 }
 
-export default function CancionLetraPage({ params }: PageProps) {
+export default function CancionLetraPage(props: PageProps) {
+  const params = use(props.params);
   const cancionId = Number.parseInt(params.id);
   const cancion = cancionesData[cancionId as keyof typeof cancionesData];
 
