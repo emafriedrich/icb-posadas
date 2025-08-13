@@ -9,7 +9,7 @@ import { notFound } from "next/navigation"
 const cancionesPorFecha = {
   "miercoles-13": {
     fecha: "Miércoles 13",
-    fechaCompleta: "Miércoles 13 de Noviembre, 2024",
+    fechaCompleta: "Miércoles 13",
     tipo: "Estudio Bíblico",
     canciones: [
       { id: 1, titulo: "Todo lo que creó el Rey", artista: "", duracion: "4:32" },
