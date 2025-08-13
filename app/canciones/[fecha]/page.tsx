@@ -12,43 +12,10 @@ const cancionesPorFecha = {
     fechaCompleta: "Miércoles 13 de Noviembre, 2024",
     tipo: "Estudio Bíblico",
     canciones: [
-      { id: 1, titulo: "Cuán Grande es Él", artista: "Himno Tradicional", duracion: "4:32" },
-      { id: 2, titulo: "Amazing Grace", artista: "John Newton", duracion: "3:45" },
-      { id: 3, titulo: "Sublime Gracia", artista: "Versión en Español", duracion: "4:12" },
-      { id: 4, titulo: "Al Cristo Vivo Sirvo", artista: "Himno Tradicional", duracion: "3:28" },
-    ],
-  },
-  "domingo-10": {
-    fecha: "Domingo 10",
-    fechaCompleta: "Domingo 10 de Noviembre, 2024",
-    tipo: "Servicio Principal",
-    canciones: [
-      { id: 5, titulo: "Santo, Santo, Santo", artista: "Reginald Heber", duracion: "5:15" },
-      { id: 6, titulo: "Jesús es el Señor", artista: "Canto Moderno", duracion: "4:20" },
-      { id: 7, titulo: "Te Exaltamos", artista: "Alabanza Contemporánea", duracion: "3:55" },
-      { id: 8, titulo: "Digno es el Cordero", artista: "Hillsong", duracion: "6:10" },
-      { id: 9, titulo: "Renuévame", artista: "Marcela Gándara", duracion: "4:45" },
-    ],
-  },
-  "miercoles-6": {
-    fecha: "Miércoles 6",
-    fechaCompleta: "Miércoles 6 de Noviembre, 2024",
-    tipo: "Estudio Bíblico",
-    canciones: [
-      { id: 10, titulo: "Cerca de Ti", artista: "Fanny Crosby", duracion: "3:30" },
-      { id: 11, titulo: "Tal Como Soy", artista: "Charlotte Elliott", duracion: "4:05" },
-      { id: 12, titulo: "En Cristo Hallo Amigo", artista: "Himno Tradicional", duracion: "3:50" },
-    ],
-  },
-  "domingo-3": {
-    fecha: "Domingo 3",
-    fechaCompleta: "Domingo 3 de Noviembre, 2024",
-    tipo: "Servicio Principal",
-    canciones: [
-      { id: 13, titulo: "A Dios Sea la Gloria", artista: "Fanny Crosby", duracion: "4:25" },
-      { id: 14, titulo: "Bendito Sea Tu Nombre", artista: "Matt Redman", duracion: "5:30" },
-      { id: 15, titulo: "Eres Fiel", artista: "Thomas Chisholm", duracion: "4:15" },
-      { id: 16, titulo: "Mi Jesús, Mi Salvador", artista: "Darlene Zschech", duracion: "5:05" },
+      { id: 1, titulo: "Todo lo que creó el Rey", artista: "Himno Tradicional", duracion: "4:32" },
+      { id: 2, titulo: "Dios poderoso", artista: "John Newton", duracion: "3:45" },
+      { id: 3, titulo: "Habla, oh Dios", artista: "Versión en Español", duracion: "4:12" },
+      { id: 4, titulo: "Señor mi Dios al contemplar los cielos", artista: "Himno Tradicional", duracion: "3:28" },
     ],
   },
 }

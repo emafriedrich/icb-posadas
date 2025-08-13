@@ -4,50 +4,17 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react"
 
-// Datos de ejemplo - en una aplicación real esto vendría de una base de datos
 const cancionesPorFecha = [
   {
     fecha: "Miércoles 13",
     fechaCompleta: "Miércoles 13 de Noviembre, 2024",
-    tipo: "Estudio Bíblico",
+    tipo: "Reunión de oración y estudio bíblico",
+    slug: "miercoles-13",
     canciones: [
-      { id: 1, titulo: "Cuán Grande es Él", artista: "Himno Tradicional" },
-      { id: 2, titulo: "Amazing Grace", artista: "John Newton" },
-      { id: 3, titulo: "Sublime Gracia", artista: "Versión en Español" },
-      { id: 4, titulo: "Al Cristo Vivo Sirvo", artista: "Himno Tradicional" },
-    ],
-  },
-  {
-    fecha: "Domingo 10",
-    fechaCompleta: "Domingo 10 de Noviembre, 2024",
-    tipo: "Servicio Principal",
-    canciones: [
-      { id: 5, titulo: "Santo, Santo, Santo", artista: "Reginald Heber" },
-      { id: 6, titulo: "Jesús es el Señor", artista: "Canto Moderno" },
-      { id: 7, titulo: "Te Exaltamos", artista: "Alabanza Contemporánea" },
-      { id: 8, titulo: "Digno es el Cordero", artista: "Hillsong" },
-      { id: 9, titulo: "Renuévame", artista: "Marcela Gándara" },
-    ],
-  },
-  {
-    fecha: "Miércoles 6",
-    fechaCompleta: "Miércoles 6 de Noviembre, 2024",
-    tipo: "Estudio Bíblico",
-    canciones: [
-      { id: 10, titulo: "Cerca de Ti", artista: "Fanny Crosby" },
-      { id: 11, titulo: "Tal Como Soy", artista: "Charlotte Elliott" },
-      { id: 12, titulo: "En Cristo Hallo Amigo", artista: "Himno Tradicional" },
-    ],
-  },
-  {
-    fecha: "Domingo 3",
-    fechaCompleta: "Domingo 3 de Noviembre, 2024",
-    tipo: "Servicio Principal",
-    canciones: [
-      { id: 13, titulo: "A Dios Sea la Gloria", artista: "Fanny Crosby" },
-      { id: 14, titulo: "Bendito Sea Tu Nombre", artista: "Matt Redman" },
-      { id: 15, titulo: "Eres Fiel", artista: "Thomas Chisholm" },
-      { id: 16, titulo: "Mi Jesús, Mi Salvador", artista: "Darlene Zschech" },
+      { id: 1, titulo: "Todo lo que creó el Rey", artista: "Himno Tradicional" },
+      { id: 2, titulo: "Dios poderoso", artista: "Himno Tradicional" },
+      { id: 3, titulo: "Habla oh Dios", artista: "Himno Tradicional" },
+      { id: 4, titulo: "Señor mi Dios, al contemplar los cielos", artista: "Himno Tradicional" },
     ],
   },
 ]
@@ -141,7 +108,7 @@ export default function CancionesPage() {
                   </div>
 
                   <Button asChild className="w-full bg-blue-600 hover:bg-blue-700 h-11">
-                    <Link href={`/canciones/${encodeURIComponent(evento.fecha.toLowerCase().replace(/\s+/g, "-"))}`}>
+                    <Link href={`/canciones/${evento.slug}`}>
                       Ver todas las canciones
                       <ChevronRight className="w-4 h-4 ml-2" />
                     </Link>
