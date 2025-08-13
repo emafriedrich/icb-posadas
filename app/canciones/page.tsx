@@ -7,7 +7,7 @@ import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react"
 const cancionesPorFecha = [
   {
     fecha: "Miércoles 13",
-    fechaCompleta: "Miércoles 13 de Noviembre, 2024",
+    fechaCompleta: "Miércoles 13",
     tipo: "Reunión de oración y estudio bíblico",
     slug: "miercoles-13",
     canciones: [

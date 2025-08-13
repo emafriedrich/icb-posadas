@@ -13,7 +13,7 @@ const cancionesData = {
   1: {
     id: 1,
     titulo: "Todo lo que creó el Rey",
-    artista: "Himno Tradicional",
+    artista: "",
     fecha: "Miércoles 13",
     fechaSlug: "miercoles-13",
     letra: `Todo lo que creó el Rey
@@ -120,7 +120,7 @@ Oh gran Yo Soy`,
   3: {
     id: 3,
     titulo: "Habla oh Dios",
-    artista: "Versión en Español",
+    artista: "",
     fecha: "Miércoles 13",
     fechaSlug: "miercoles-13",
     letra: `Habla, oh Dios y yo escucharé
@@ -156,7 +156,7 @@ Llena el mundo hoy de Tu gloria`,
   4: {
     id: 4,
     titulo: "Señor mi Dios",
-    artista: "Himno Tradicional",
+    artista: "",
     fecha: "Miércoles 13",
     fechaSlug: "miercoles-13",
     letra: `Señor, mi Dios, al contemplar los cielos,

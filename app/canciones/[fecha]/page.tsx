@@ -12,10 +12,10 @@ const cancionesPorFecha = {
     fechaCompleta: "Miércoles 13 de Noviembre, 2024",
     tipo: "Estudio Bíblico",
     canciones: [
-      { id: 1, titulo: "Todo lo que creó el Rey", artista: "Himno Tradicional", duracion: "4:32" },
-      { id: 2, titulo: "Dios poderoso", artista: "John Newton", duracion: "3:45" },
-      { id: 3, titulo: "Habla, oh Dios", artista: "Versión en Español", duracion: "4:12" },
-      { id: 4, titulo: "Señor mi Dios al contemplar los cielos", artista: "Himno Tradicional", duracion: "3:28" },
+      { id: 1, titulo: "Todo lo que creó el Rey", artista: "", duracion: "4:32" },
+      { id: 2, titulo: "Dios poderoso", artista: "", duracion: "3:45" },
+      { id: 3, titulo: "Habla, oh Dios", artista: "", duracion: "4:12" },
+      { id: 4, titulo: "Señor mi Dios al contemplar los cielos", artista: "", duracion: "3:28" },
     ],
   },
 }
