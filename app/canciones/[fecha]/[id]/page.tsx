@@ -1,6 +1,5 @@
-"use client";;
+"use client";
 import { use } from "react";
-
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
@@ -8,14 +7,17 @@ import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Music, Type, Minus, Plus } from "lucide-react";
 import { notFound } from "next/navigation";
 
-// Datos de ejemplo con letras completas
+// ==========================
+// 🎵 Datos de ejemplo
+// ==========================
+
 const cancionesData = {
-  1: {
-    id: 1,
+  141: {
+    id: 141,
     titulo: "Todo lo que creó el Rey",
     artista: "",
-    fecha: "Miércoles 13",
-    fechaSlug: "miercoles-13",
+    fecha: "Domingo 17",
+    fechaSlug: "domingo-17",
     letra: `Todo lo que creó el Rey
 Alce su voz y cante a Él
 ¡Oh alaben! ¡Aleluya!
@@ -117,12 +119,12 @@ Todo es Tuyo
 Y para Ti oh Señor
 Oh gran Yo Soy`,
   },
-  3: {
-    id: 3,
+  131: {
+    id: 131,
     titulo: "Habla oh Dios",
     artista: "",
-    fecha: "Miércoles 13",
-    fechaSlug: "miercoles-13",
+    fecha: "Domingo 17",
+    fechaSlug: "domingo-17",
     letra: `Habla, oh Dios y yo escucharé
 Quiero recibir Tu palabra fiel
 Tu verdad plántala en mi ser
@@ -182,8 +184,121 @@ al dulce hogar, al cielo de esplendor,
 le adoraré cantando la grandeza
 de su poder y su infinito amor:`,
   },
+  140: {
+    id: 140,
+    titulo: "Levántate, iglesia del Señor",
+    artista: "",
+    fecha: "Domingo 17",
+    fechaSlug: "domingo-17",
+    letra: `Levántate, iglesia del Señor,
+cíñete de Su armadura;
+Oye la voz de Cristo el Capitán;
+Que a su ejército nos llama.
+Con el escudo de la fe,
+y el cinturón de la verdad.
+Marchemos hoy, armados de su amor, 
+Alcanzando a los perdidos.
+
+Nuestra misión será servir y amar,
+combatiendo al enemigo.
+La espada de Su Espíritu
+traerá libertad a los cautivos.
+Aunque haya pruebas o tentación,
+segura es Su salvación;
+Jesús tendrá lo que ganó al morir:
+por herencia de naciones.
+
+Mira en la cruz la gracia y el perdón,
+donde el Hijo fue inmolado;
+Mira también vencido a sus pies, 
+Al maligno aplastado.
+La muerte no pudo ganar; 
+Jesús triunfó al resucitar.
+Y volverá reinando en esplendor
+todo ojo habrá de verlo.
+
+Espíritu, oh Dios consolador 
+Danos gozo, fe y aliento.
+Sea nuestro fin, y nuestro galardón,
+agradar sólo al Maestro.
+Los santos que lucharon ya
+ celebran Su fidelidad;
+//Dios les guardó y así nos guardará, 
+Hasta estar con Él en gloria.//
+`,
+  },
+  110: {
+    id: 110,
+    titulo: "Hubo quien por mí culpa",
+    artista: "",
+    fecha: "Domingo 17",
+    fechaSlug: "domingo-17",
+    letra: `Hubo quien por mis culpas muriera en la cruz,
+Aunque indigno y vil como soy.
+Soy feliz, pues su sangre vertió me Jesús,
+Y con ella mis culpas borró.
+
+Mis pecados llevó, en la cruz do murió
+El sublime, el tierno Jesús.
+Los desprecios sufrió, y mi alma salvó.
+Él cambió mis tinieblas en luz.
+
+Él es tierno y amante cual nadie lo fue,
+Pues convierte al infiel corazón.
+Y por esa paciencia y ternura yo sé
+Que soy libre de condenación.
+
+Es mi anhelo constante a Cristo seguir.
+Mi camino su ejemplo marcó.
+Y por darme la vida Él quiso morir.
+En la cruz mi pecado clavó.`,
+  },
+  87: {
+    id: 87,
+    titulo: "Gracias, Cristo",
+    artista: "",
+    fecha: "Domingo 17",
+    fechaSlug: "domingo-17",
+    letra: `El misterio de la cruz 
+no puedo comprender
+La angustia que llegó a sufrir
+El perfecto Dios, Su Hijo entregó
+La copa amarga Él bebió por mí
+
+Tu sangre, mi maldad lavó
+Gracias, Cristo
+Fue satisfecha la ira de Dios
+Gracias, Cristo
+Tu enemigo fui 
+y hoy me siento a Tu mesa
+Gracias, Cristo
+
+Por Tu sacrificio me acercaste a Ti
+Quitaste toda enemistad
+Tu gloriosa gracia derramaste en mí
+Tu misericordia es sin igual`,
+  },
 };
 
+// ==========================
+// 📅 Agrupar canciones por fecha
+// ==========================
+export const cancionesPorFecha = Object.values(cancionesData).reduce(
+  (acc, cancion) => {
+    if (!acc[cancion.fechaSlug]) {
+      acc[cancion.fechaSlug] = { fecha: cancion.fecha, canciones: [] };
+    }
+    acc[cancion.fechaSlug].canciones.push(cancion);
+    // Ordenar las canciones por ID para respetar programa
+    acc[cancion.fechaSlug].canciones.sort((a, b) => a.id - b.id);
+    return acc;
+  },
+  {} as Record<string, { fecha: string; canciones: typeof cancionesData[141][] }>
+);
+
+// ==========================
+// 📄 Página de letra
+// ==========================
 interface PageProps {
   params: Promise<{
     fecha: string;
@@ -192,17 +307,29 @@ interface PageProps {
 }
 
 export default function CancionLetraPage(props: PageProps) {
-  const params = use(props.params);
-  const cancionId = Number.parseInt(params.id);
-  const cancion = cancionesData[cancionId as keyof typeof cancionesData];
+ const params = use(props.params);
+  const fechaData = cancionesPorFecha[params.fecha as keyof typeof cancionesPorFecha];
 
+  if (!fechaData) {
+    notFound();
+  }
+
+  // 🔹 usamos la lista de canciones del programa, en el orden definido
+  const lista = fechaData.canciones;
+  const cancionId = Number.parseInt(params.id);
+  const cancion = lista.find((c) => c.id === cancionId);
   if (!cancion) {
     notFound();
   }
 
+
+  const index = lista.findIndex((c) => c.id === cancion.id);
+  const anterior = index > 0 ? lista[index - 1] : null;
+  const siguiente = index < lista.length - 1 ? lista[index + 1] : null;
+
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
-      {/* Header - Optimizado para móvil */}
+    <div className="min-h-screen bg-gradient-to-b from-primary-muted to-white">
+      {/* Header */}
       <header className="bg-white shadow-sm border-b sticky top-0 z-10">
         <div className="max-w-4xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
@@ -214,8 +341,8 @@ export default function CancionLetraPage(props: PageProps) {
             </Button>
 
             <div className="flex items-center space-x-2 min-w-0 flex-1 mx-4">
-              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
-                <Music className="w-4 h-4 text-white" />
+              <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+                <Music className="w-4 h-4 text-primary-foreground" />
               </div>
               <div className="min-w-0 flex-1">
                 <h1 className="text-lg font-bold text-gray-900 truncate">
@@ -229,7 +356,7 @@ export default function CancionLetraPage(props: PageProps) {
 
             <Badge
               variant="secondary"
-              className="bg-blue-100 text-blue-800 text-xs flex-shrink-0"
+              className="bg-primary-light text-primary-dark text-xs flex-shrink-0"
             >
               {cancion.fecha}
             </Badge>
@@ -237,10 +364,10 @@ export default function CancionLetraPage(props: PageProps) {
         </div>
       </header>
 
-      {/* Main Content - Optimizado para lectura en móvil */}
+      {/* Main */}
       <main className="py-6 px-4">
         <div className="max-w-2xl mx-auto">
-          {/* Información de la canción */}
+          {/* Info canción */}
           <Card className="mb-6">
             <CardHeader className="pb-4">
               <div className="text-center">
@@ -253,7 +380,7 @@ export default function CancionLetraPage(props: PageProps) {
             </CardHeader>
           </Card>
 
-          {/* Controles de texto - Solo en móvil */}
+          {/* Controles de texto */}
           <div className="flex justify-center mb-6 sm:hidden">
             <div className="flex items-center space-x-2 bg-white rounded-full px-4 py-2 shadow-sm border">
               <Type className="w-4 h-4 text-gray-500" />
@@ -295,7 +422,7 @@ export default function CancionLetraPage(props: PageProps) {
             </div>
           </div>
 
-          {/* Letra de la canción - Optimizada para lectura */}
+          {/* Letra */}
           <Card className="mb-8">
             <CardContent className="p-6 sm:p-8">
               <div
@@ -312,32 +439,16 @@ export default function CancionLetraPage(props: PageProps) {
             </CardContent>
           </Card>
 
-          {/* Navegación inferior */}
+           {/* Navegación entre canciones */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              variant="outline"
-              asChild
-              className="w-full sm:w-auto bg-transparent"
-            >
-              {
-                cancion.id + 1 <= Object.keys(cancionesData).length ? (
-                  <Link
-                    href={`/canciones/${params.fecha}/${cancion.id + 1}`}
-                  >
-                    Siguiente Canción
-                  </Link>
-                ) : (
-                  <Link
-                    href={`/canciones/${params.fecha}/${cancion.id - 1}`}
-                  >
-                    Canción previa
-                  </Link>
-                )
-              }
+            <Button variant="outline" asChild>
+                <Link href={`/canciones/${params.fecha}`}>
+                  → Volver a Canciones del Domingo
+                </Link>
             </Button>
           </div>
 
-          {/* Espacio adicional para scroll en móvil */}
+          {/* Espacio para scroll en móvil */}
           <div className="h-20 sm:h-8"></div>
         </div>
       </main>
