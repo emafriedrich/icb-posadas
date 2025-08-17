@@ -24,8 +24,8 @@ export const cancionesPorFecha = {
     fechaCompleta: "Domingo 17",
     tipo: "Reunión de Predicación y Santa Cena",
     canciones: [
-      { id: 141, titulo: "Levántate, iglesia del Señor", artista: "", duracion: "4:32" },
-      { id: 140, titulo: "Todo lo que creó el Rey", artista: "", duracion: "3:45" },
+      { id: 140, titulo: "Levántate, iglesia del Señor", artista: "", duracion: "4:32" },
+      { id: 141, titulo: "Todo lo que creó el Rey", artista: "", duracion: "3:45" },
       { id: 131, titulo: "Habla, oh Dios", artista: "", duracion: "4:12" },
       { id: 110, titulo: "Hubo quien por mí culpa", artista: "", duracion: "3:28" },
       { id: 87, titulo: "Gracias, Cristo", artista: "", duracion: "3:28" },
