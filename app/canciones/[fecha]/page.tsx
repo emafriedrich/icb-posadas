@@ -116,7 +116,7 @@ export default async function FechaCancionesPage(props: PageProps) {
                         <span className="text-primary font-semibold">{index + 1}</span>
                       </div>
                       <div>
-                        <h3 className="text-lg font-semibold text-gray-900">{cancion.titulo}</h3>
+                        <h3 className="text-lg font-semibold text-gray-900">{cancion.id}. {cancion.titulo}</h3>
                         <p className="text-gray-600">{cancion.artista}</p>
                         <p className="text-sm text-gray-500">{cancion.duracion}</p>
                       </div>
