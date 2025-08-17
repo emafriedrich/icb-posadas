@@ -395,7 +395,7 @@ export default function CancionLetraPage(props: PageProps) {
                       getComputedStyle(content).fontSize
                     );
                     content.style.fontSize =
-                      Math.max(14, currentSize - 2) + "px";
+                      Math.max(32, currentSize - 2) + "px";
                   }
                 }}
               >
@@ -443,7 +443,7 @@ export default function CancionLetraPage(props: PageProps) {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="outline" asChild>
                 <Link href={`/canciones/${params.fecha}`}>
-                  → Volver a Canciones del Domingo
+                 ←  Volver a Canciones del Domingo
                 </Link>
             </Button>
           </div>

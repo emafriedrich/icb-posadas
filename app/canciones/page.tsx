@@ -6,7 +6,7 @@ import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react"
 
 const cancionesPorFecha = [
   {
-    fecha: "Domingo 17",
+    fecha: "Domingo",
     fechaCompleta: "Domingo 17",
     tipo: "Reunión de Predicación y Estudio Bíblico",
     slug: "domingo-17",
@@ -82,17 +82,17 @@ export default function CancionesPage() {
                     <CardTitle className="text-base sm:text-xl truncate">
                       {evento.fecha}
                     </CardTitle>
-                    <CardDescription className="text-xs sm:text-base truncate">
-                      {evento.fechaCompleta}
+                    <CardDescription className="text-xs sm:text-base break-words">
+                      {evento.fechaCompleta} | {evento.tipo}
                     </CardDescription>
                   </div>
                 </div>
-                <Badge
+              {/*   <Badge
                   variant="secondary"
                   className="bg-primary-light text-primary-dark text-xs sm:text-sm flex-shrink-0"
                 >
                   {evento.tipo}
-                </Badge>
+                </Badge> */}
               </div>
             </CardHeader>
 

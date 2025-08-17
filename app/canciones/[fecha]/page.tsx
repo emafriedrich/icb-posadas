@@ -20,12 +20,12 @@ export const cancionesPorFecha = {
     ],
   },
   "domingo-17": {
-    fecha: "Domingo 17",
+    fecha: "Domingo",
     fechaCompleta: "Domingo 17",
     tipo: "Reunión de Predicación y Santa Cena",
     canciones: [
-      { id: 141, titulo: "Levántate, iglesia del Señor", artista: "", duracion: "4:32" },
-      { id: 140, titulo: "Todo lo que creó el Rey", artista: "", duracion: "3:45" },
+      { id: 140, titulo: "Levántate, iglesia del Señor", artista: "", duracion: "4:32" },
+      { id: 141, titulo: "Todo lo que creó el Rey", artista: "", duracion: "3:45" },
       { id: 131, titulo: "Habla, oh Dios", artista: "", duracion: "4:12" },
       { id: 110, titulo: "Hubo quien por mí culpa", artista: "", duracion: "3:28" },
       { id: 87, titulo: "Gracias, Cristo", artista: "", duracion: "3:28" },
@@ -65,12 +65,9 @@ export default async function FechaCancionesPage(props: PageProps) {
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">{fechaData.fecha}</h1>
-                <p className="text-sm text-gray-600">{fechaData.fechaCompleta}</p>
+                <p className="text-sm text-gray-600 break-words">{fechaData.fechaCompleta} |  {fechaData.tipo}</p> 
               </div>
             </div>
-            <Badge variant="secondary" className="bg-primary-light text-primary-dark">
-              {fechaData.tipo}
-            </Badge>
           </div>
         </div>
       </header>
@@ -80,11 +77,11 @@ export default async function FechaCancionesPage(props: PageProps) {
        <div className="max-w-4xl mx-auto">
     <div className="text-center mb-8">
       {/* Versión MOBILE */}
-      <div className="block md:hidden flex justify-center">
+      <div className="block md:hidden mb-2 flex justify-center">
         <Image
           src="/logo.png"
-          width={100}
-          height={100}
+          width={120}
+          height={120}
           alt="Logo de la iglesia (mobile)"
         />
       </div>
@@ -99,7 +96,7 @@ export default async function FechaCancionesPage(props: PageProps) {
         />
       </div>
 
-      <h2 className="text-3xl font-bold text-gray-900 mb-2">
+      <h2 className="text-2xl font-bold text-gray-900 mb-2">
         Canciones del {fechaData.fecha}
       </h2>
       <p className="text-gray-600">
