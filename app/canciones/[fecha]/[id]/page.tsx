@@ -283,7 +283,7 @@ Tu misericordia es sin igual`,
     titulo: "Todo por Tu gloria y mi bien",
     artista: "",
     fecha: "",
-    fechaSlug: "",
+    fechaSlug: "miercoles-20",
     letra: `Cuando estaba muerto en vida
 Extraviado y sin salida
 Me buscaste
@@ -315,7 +315,7 @@ Te alabo, te alabo`,
     titulo: "En ti esperamos",
     artista: "",
     fecha: "",
-    fechaSlug: "",
+    fechaSlug: "miercoles-20",
     letra: `Oh, líbranos del mal, Señor
 El mundo quebrantado está
 Aunque haya guerras y dolor
@@ -356,7 +356,7 @@ En ti esperamos, oh, Señor
     titulo: "Mi alma esperará",
     artista: "",
     fecha: "",
-    fechaSlug: "",
+    fechaSlug: "miercoles-20",
     letra: `Si me acecha Satanás y desmayo en mi interior,
 Si me cubre oscuridad y me agobia el temor;
 En silencio esperaré, confiaré en Ti, Señor,
@@ -393,7 +393,7 @@ Nuestro Salvador.`,
     titulo: "Sólo en Jesús",
     artista: "",
     fecha: "",
-    fechaSlug: "",
+    fechaSlug: "miercoles-20",
     letra: `Sólo en Jesús esta mi fe, 
 Mi esperanza y mi canción, 
 Piedra Angular, firme sostén, 
