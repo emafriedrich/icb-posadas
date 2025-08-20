@@ -278,9 +278,9 @@ Quitaste toda enemistad
 Tu gloriosa gracia derramaste en mí
 Tu misericordia es sin igual`,
   },
-  142: {
-    id: 142,
-    titulo: "Todo por Tu gloria y mi bien",
+  136: {
+    id: 136,
+    titulo: "Todo por Tu gloria",
     artista: "",
     fecha: "",
     fechaSlug: "miercoles-20",
