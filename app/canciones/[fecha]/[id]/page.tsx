@@ -278,6 +278,159 @@ Quitaste toda enemistad
 Tu gloriosa gracia derramaste en mí
 Tu misericordia es sin igual`,
   },
+  142: {
+    id: 142,
+    titulo: "Todo por Tu gloria y mi bien",
+    artista: "",
+    fecha: "",
+    fechaSlug: "",
+    letra: `Cuando estaba muerto en vida
+Extraviado y sin salida
+Me buscaste
+Antes de crear el mundo
+Escogiste hacerme tuyo
+Pues me amaste, Dios, me amaste
+
+Sé que estás obrando en todo lo que pasa
+Todo por Tu gloria y mi bien
+Dios, Tú siempre cumples todas Tus promesas
+Todo por Tu gloria y mi bien
+
+Aunque el enemigo aceche
+Y la muerte me rodee
+Me defiendes
+Si el desierto luce eterno
+Y si hay noches cuando temo
+Me acompañas, me acompañas
+
+Cuando con poder regreses
+O al final mi vida llegue
+Me sostienes
+Tú el autor de mi destino
+Eres fiel y estás conmigo
+Te alabo, te alabo`,
+  },
+  132: {
+    id: 132,
+    titulo: "En ti esperamos",
+    artista: "",
+    fecha: "",
+    fechaSlug: "",
+    letra: `Oh, líbranos del mal, Señor
+El mundo quebrantado está
+Aunque haya guerras y dolor
+El cielo eterno es nuestro hogar
+
+En ti esperamos, oh, Señor
+Reinas con autoridad
+En ti esperamos, oh, Señor
+//Tu poder nos sostendrá//
+
+Oh, líbranos del mal, Señor
+Pues nos desviamos sin pensar
+Cercana está la tentación
+Nos lleva en pos de falsedad
+
+En ti esperamos, oh, Señor
+Cristo, el Hijo que venció
+En ti esperamos, oh, Señor
+//Danos plena salvación//
+
+Oh, líbranos del mal, Señor
+El diablo busca devorar
+Rugiendo infunde gran temor
+Mas tu poder lo aplastará
+
+En ti esperamos, oh, Señor
+Haz caer su reino, oh, Dios
+En ti esperamos, oh, Señor
+Te rogamos, líbranos
+
+En ti esperamos, oh, Señor
+A reinar regresarás
+En ti esperamos, oh, Señor
+///La creación se postrará///`,
+  },
+  125: {
+    id: 125,
+    titulo: "Mi alma esperará",
+    artista: "",
+    fecha: "",
+    fechaSlug: "",
+    letra: `Si me acecha Satanás y desmayo en mi interior,
+Si me cubre oscuridad y me agobia el temor;
+En silencio esperaré, confiaré en Ti, Señor,
+Tu Palabra es mi sostén.
+
+Tú, mi Salvación, mi fortaleza,
+Esperanza fiel y roca eterna,
+Mi alma, oh Dios, esperará por Ti.
+
+Tú, mi escudo y protección, en peligro y tempestad,
+Si prospera el pecador, como un soplo pasará;
+Yo sé bien que triunfarás, Satanás vencido está,
+Tu poder me guardará.
+
+Tú mi salvación, mi fortaleza,
+Esperanza fiel y roca eterna,
+Mi alma, oh Dios, esperará por Ti.
+En mi soledad, Tú, mi consuelo,
+Refugio fiel, mi fundamento,
+Mi alma, oh Dios, esperará por Ti.
+
+Cuán inexplicable amor, no merezco Tu bondad,
+Por Tu obra de expiación, encontré en Ti la paz;
+La batalla terminó, no hay vergüenza ni temor,
+Ya la muerte derrotó.
+
+Derramamos nuestras almas
+Ante Ti, Señor.
+Confiaremos en tu gracia
+Nuestro Salvador.`,
+  },
+  54: {
+    id: 54,
+    titulo: "Sólo en Jesús",
+    artista: "",
+    fecha: "",
+    fechaSlug: "",
+    letra: `Sólo en Jesús esta mi fe, 
+Mi esperanza y mi canción, 
+Piedra Angular, firme sostén, 
+Inconmovible en la aflicción, 
+Cuán grande Amor, inmensa Paz, 
+En el temor o adversidad, 
+Consolador, Amigo Fiel, 
+Yo en Su Amor me sostendré.
+
+Solo en Jesús, Hijo de Dios, 
+Quien se humilló por nuestro bien, 
+Cordero de, mi Salvación, 
+Por este mundo herido fue, 
+En una cruz fue a morir, 
+Y Dios mostró su Gracia ahí, 
+Pues mí pecado Él llevó, 
+En su aflicción Vida me dio. 
+
+En un sepulcro, Él yació, 
+El cuerpo inerte del Señor, 
+Más el tercer día llegó, 
+Resucitó en Gloriosa Luz, 
+Y al triunfar, sobre el mal, 
+Perdió el pecado potestad, 
+De Él suyo soy, Él mío es, 
+Pues con su Sangre me compró.
+
+Desde al nacer hasta el morir, 
+Sea el Poder de Cristo en mí, 
+No temeré, seguro estoy, 
+Mi vida yo a Él, le doy, 
+
+// Ningún poder, ningún afán, 
+De Él me arrebatará, 
+Hasta que Él, venga otra vez, 
+En Su Poder me sostendré //`,
+  },
 };
 
 // ==========================
@@ -293,7 +446,10 @@ export const cancionesPorFecha = Object.values(cancionesData).reduce(
     acc[cancion.fechaSlug].canciones.sort((a, b) => a.id - b.id);
     return acc;
   },
-  {} as Record<string, { fecha: string; canciones: typeof cancionesData[141][] }>
+  {} as Record<
+    string,
+    { fecha: string; canciones: (typeof cancionesData)[141][] }
+  >
 );
 
 // ==========================
@@ -307,8 +463,9 @@ interface PageProps {
 }
 
 export default function CancionLetraPage(props: PageProps) {
- const params = use(props.params);
-  const fechaData = cancionesPorFecha[params.fecha as keyof typeof cancionesPorFecha];
+  const params = use(props.params);
+  const fechaData =
+    cancionesPorFecha[params.fecha as keyof typeof cancionesPorFecha];
 
   if (!fechaData) {
     notFound();
@@ -321,7 +478,6 @@ export default function CancionLetraPage(props: PageProps) {
   if (!cancion) {
     notFound();
   }
-
 
   const index = lista.findIndex((c) => c.id === cancion.id);
   const anterior = index > 0 ? lista[index - 1] : null;
@@ -439,12 +595,12 @@ export default function CancionLetraPage(props: PageProps) {
             </CardContent>
           </Card>
 
-           {/* Navegación entre canciones */}
+          {/* Navegación entre canciones */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="outline" asChild>
-                <Link href={`/canciones/${params.fecha}`}>
-                 ←  Volver a Canciones del Domingo
-                </Link>
+              <Link href={`/canciones/${params.fecha}`}>
+                ← Volver a Canciones del Domingo
+              </Link>
             </Button>
           </div>
 
