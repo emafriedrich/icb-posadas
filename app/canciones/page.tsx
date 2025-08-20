@@ -43,6 +43,7 @@ const cancionesPorFecha = [
     fecha: "Miércoles",
     fechaCompleta: "Miércoles 20",
     tipo: "Reunión de Predicación y Estudio Bíblico",
+    slug: "miercoles-20",
     canciones: [
       { id: 136, titulo: "Todo por tu gloria", artista: "", duracion: "" },
       { id: 132, titulo: "En ti esperamos", artista: "", duracion: "" },
