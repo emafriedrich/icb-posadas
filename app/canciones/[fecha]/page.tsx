@@ -1,10 +1,10 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Music, ArrowLeft, Play } from "lucide-react"
-import { notFound } from "next/navigation"
-import Image from "next/image"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Music, ArrowLeft, Play } from "lucide-react";
+import { notFound } from "next/navigation";
+import Image from "next/image";
 
 // Datos de ejemplo - en una aplicación real esto vendría de una base de datos
 export const cancionesPorFecha = {
@@ -13,10 +13,20 @@ export const cancionesPorFecha = {
     fechaCompleta: "Miércoles 13",
     tipo: "Estudio Bíblico",
     canciones: [
-      { id: 1, titulo: "Todo lo que creó el Rey", artista: "", duracion: "4:32" },
+      {
+        id: 1,
+        titulo: "Todo lo que creó el Rey",
+        artista: "",
+        duracion: "4:32",
+      },
       { id: 2, titulo: "Dios poderoso", artista: "", duracion: "3:45" },
       { id: 3, titulo: "Habla, oh Dios", artista: "", duracion: "4:12" },
-      { id: 4, titulo: "Señor mi Dios al contemplar los cielos", artista: "", duracion: "3:28" },
+      {
+        id: 4,
+        titulo: "Señor mi Dios al contemplar los cielos",
+        artista: "",
+        duracion: "3:28",
+      },
     ],
   },
   "domingo-17": {
@@ -24,27 +34,54 @@ export const cancionesPorFecha = {
     fechaCompleta: "Domingo 17",
     tipo: "Reunión de Predicación y Santa Cena",
     canciones: [
-      { id: 140, titulo: "Levántate, iglesia del Señor", artista: "", duracion: "4:32" },
-      { id: 141, titulo: "Todo lo que creó el Rey", artista: "", duracion: "3:45" },
+      {
+        id: 140,
+        titulo: "Levántate, iglesia del Señor",
+        artista: "",
+        duracion: "4:32",
+      },
+      {
+        id: 141,
+        titulo: "Todo lo que creó el Rey",
+        artista: "",
+        duracion: "3:45",
+      },
       { id: 131, titulo: "Habla, oh Dios", artista: "", duracion: "4:12" },
-      { id: 110, titulo: "Hubo quien por mí culpa", artista: "", duracion: "3:28" },
+      {
+        id: 110,
+        titulo: "Hubo quien por mí culpa",
+        artista: "",
+        duracion: "3:28",
+      },
       { id: 87, titulo: "Gracias, Cristo", artista: "", duracion: "3:28" },
     ],
   },
-}
+  "miercoles-20": {
+    fecha: "Miércoles",
+    fechaCompleta: "Miércoles 20",
+    tipo: "Reunión de Oración",
+    canciones: [
+      { id: 136, titulo: "Todo por tu gloria", artista: "", duracion: "" },
+      { id: 132, titulo: "En ti esperamos", artista: "", duracion: "" },
+      { id: 125, titulo: "Mi alma esperará", artista: "", duracion: "" },
+      { id: 54, titulo: "Sólo en Jesús", artista: "", duracion: "" },
+    ],
+  },
+};
 
 interface PageProps {
   params: Promise<{
-    fecha: string
-  }>
+    fecha: string;
+  }>;
 }
 
 export default async function FechaCancionesPage(props: PageProps) {
-  const params = await props.params
-  const fechaData = cancionesPorFecha[params.fecha as keyof typeof cancionesPorFecha]
+  const params = await props.params;
+  const fechaData =
+    cancionesPorFecha[params.fecha as keyof typeof cancionesPorFecha];
 
   if (!fechaData) {
-    notFound()
+    notFound();
   }
 
   return (
@@ -64,8 +101,12 @@ export default async function FechaCancionesPage(props: PageProps) {
                 <Music className="w-5 h-5 text-primary-foreground" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">{fechaData.fecha}</h1>
-                <p className="text-sm text-gray-600 break-words">{fechaData.fechaCompleta} |  {fechaData.tipo}</p> 
+                <h1 className="text-2xl font-bold text-gray-900">
+                  {fechaData.fecha}
+                </h1>
+                <p className="text-sm text-gray-600 break-words">
+                  {fechaData.fechaCompleta} | {fechaData.tipo}
+                </p>
               </div>
             </div>
           </div>
@@ -74,54 +115,66 @@ export default async function FechaCancionesPage(props: PageProps) {
 
       {/* Main Content */}
       <main className="py-8 px-4">
-       <div className="max-w-4xl mx-auto">
-    <div className="text-center mb-8">
-      {/* Versión MOBILE */}
-      <div className="block md:hidden mb-2 flex justify-center">
-        <Image
-          src="/logo.png"
-          width={120}
-          height={120}
-          alt="Logo de la iglesia (mobile)"
-        />
-      </div>
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-8">
+            {/* Versión MOBILE */}
+            <div className="block md:hidden mb-2 flex justify-center">
+              <Image
+                src="/logo.png"
+                width={120}
+                height={120}
+                alt="Logo de la iglesia (mobile)"
+              />
+            </div>
 
-      {/* Versión DESKTOP */}
-      <div className="hidden md:flex justify-center">
-        <Image
-          src="/logo.png"
-          width={150}
-          height={150}
-          alt="Logo de la iglesia (desktop)"
-        />
-      </div>
+            {/* Versión DESKTOP */}
+            <div className="hidden md:flex justify-center">
+              <Image
+                src="/logo.png"
+                width={150}
+                height={150}
+                alt="Logo de la iglesia (desktop)"
+              />
+            </div>
 
-      <h2 className="text-2xl font-bold text-gray-900 mb-2">
-        Canciones del {fechaData.fecha}
-      </h2>
-      <p className="text-gray-600">
-        {fechaData.canciones.length} canción
-        {fechaData.canciones.length !== 1 ? "es" : ""} disponible
-        {fechaData.canciones.length !== 1 ? "s" : ""}
-      </p>
-    </div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">
+              Canciones del {fechaData.fecha}
+            </h2>
+            <p className="text-gray-600">
+              {fechaData.canciones.length} canción
+              {fechaData.canciones.length !== 1 ? "es" : ""} disponible
+              {fechaData.canciones.length !== 1 ? "s" : ""}
+            </p>
+          </div>
 
           <div className="space-y-4">
             {fechaData.canciones.map((cancion, index) => (
-              <Card key={cancion.id} className="hover:shadow-md transition-shadow">
+              <Card
+                key={cancion.id}
+                className="hover:shadow-md transition-shadow"
+              >
                 <CardContent className="p-6">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-4">
                       <div className="w-12 h-12 bg-primary-light rounded-full flex items-center justify-center">
-                        <span className="text-primary font-semibold">{index + 1}</span>
+                        <span className="text-primary font-semibold">
+                          {index + 1}
+                        </span>
                       </div>
                       <div>
-                        <h3 className="text-lg font-semibold text-gray-900">{cancion.id}. {cancion.titulo}</h3>
+                        <h3 className="text-lg font-semibold text-gray-900">
+                          {cancion.id}. {cancion.titulo}
+                        </h3>
                         <p className="text-gray-600">{cancion.artista}</p>
-                        <p className="text-sm text-gray-500">{cancion.duracion}</p>
+                        <p className="text-sm text-gray-500">
+                          {cancion.duracion}
+                        </p>
                       </div>
                     </div>
-                    <Button asChild className="bg-primary hover:bg-primary-dark">
+                    <Button
+                      asChild
+                      className="bg-primary hover:bg-primary-dark"
+                    >
                       <Link href={`/canciones/${params.fecha}/${cancion.id}`}>
                         <Play className="w-4 h-4 mr-2" />
                         Ver Letra
@@ -142,5 +195,5 @@ export default async function FechaCancionesPage(props: PageProps) {
         </div>
       </main>
     </div>
-  )
+  );
 }
