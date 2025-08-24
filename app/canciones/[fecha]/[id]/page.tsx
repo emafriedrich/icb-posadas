@@ -431,6 +431,197 @@ De Él me arrebatará,
 Hasta que Él, venga otra vez, 
 En Su Poder me sostendré //`,
   },
+  210: {
+    id: 210,
+    titulo: "Que lo sabe todo el Padre",
+    artista: "",
+    fecha: "",
+    fechaSlug: "domingo-24",
+    letra: `Que lo sabe todo el Padre,
+Es mi certitud,
+Y que en gracia él por mí vela,
+Con solicitud.
+Todo cuanto Dios permita
+Obra para bien,
+Y deseo solamente
+Responderle “Amén.”
+
+Bien sé yo que lo futuro
+En su mano está;
+Con desvelo permanente
+El me guiará;
+Aunque en mi camino encuentre,
+Penas y dolor,
+Siempre tras las fuertes pruebas,
+Veo su favor.
+
+Gusto de contarle cuanto
+Me sucede aquí,
+Cierto que su buen cuidado
+Lega aun a mí,
+Y después con buen agrado
+De su amor gozar,
+Gracias le daré por cuanto
+El me quiera dar.
+
+Confiadamente entonces
+Puedo aquí vivir,
+Sin recelos ni cuidados
+Por mi porvenir;
+Pues mi Padre Dios me asiste
+Con divino amor,
+Siendo aquel que me sostiene
+Cristo el Salvador.`,
+  },
+  112: {
+    id: 112,
+    titulo: "Si paz cual un rio",
+    artista: "",
+    fecha: "",
+    fechaSlug: "domingo-24",
+    letra: `Si paz cual un río es aquí mi porción,
+Si es como las olas del mar,
+Cualquiera mi suerte, es ya mi canción
+“Está bien, con mi alma está bien”.
+
+Coro:
+Está bien…, está bien…,
+Está bien, con mi alma está bien.
+
+Por más que Satán me tentare a mí,
+En esto consuelo tendré:
+Que Cristo, al ver cuan perdido yo fui,
+En la cruz por mi alma murió.
+
+Pecado llevó y las gracias le doy,
+Completo el trabajo está,
+llevólo en la cruz y ya libre estoy,
+¡Oh! mi alma bendice al Señor.
+
+Que viva por Cristo, y sólo por El,
+Y si yo muriese, bien sé,
+Que no temeré, porque Cristo es fiel
+Y mi alma en su paz guardará.
+
+Mas no es la muerte que espero, Señor,
+La tumba mi meta no es,
+Tu pronta venida, en tu tierno amor
+Esperando mi alma hoy está.`,
+  },
+  99: {
+    id: 99,
+    titulo: "Ciudad de Dios",
+    artista: "",
+    fecha: "",
+    fechaSlug: "domingo-24",
+    letra: `Hay un lugar al que mi alma
+Anhela tanto por llegar
+Una ciudad donde hay descanso
+Y gozo por la eternidad
+Sé que pronto allá estaré;
+Con mis ojos yo veré
+A aquel que vino a rescatarme
+Para llevarme allí con Él
+
+He aquí que la presencia del Señor
+Mora en medio de los hombres que Él salvó
+Ellos son su pueblo y Él su eterno Dios
+La Ciudad de Dios es lo que anhelo yo
+
+Hay un lugar resplandeciente,
+Donde no hay más oscuridad
+No existe más un enemigo;
+Se vive en plena libertad
+Santa y dulce comunión,
+Sin vergüenza ni temor
+Su justicia cubre por siempre
+Mi pecado y corrupción
+
+Hay un lugar donde su gloria
+Satisface el corazón
+Recibiré la recompensa:
+Me abrazará mi Salvador
+Ya no hay llanto ni dolor;
+No hay más prueba ni aflicción
+La muerte sólo una memoria,
+Recuerdo de la redención
+`,
+  },
+  104: {
+    id: 104,
+    titulo: "Mi esperanza fiel",
+    artista: "",
+    fecha: "",
+    fechaSlug: "domingo-24",
+    letra: `¡Cuán grande abismo nos separaba!
+¡Jamás tal cima pude escalar!
+Desesperado miré hacia el cielo
+Y te invoqué en mi oscuridad
+
+Entre la noche, tu dulce gracia
+Venció las sombras de mi ser
+Fue consumado el plan eterno
+En Jesús mi esperanza fiel
+
+Cuán asombrosa misericordia
+Inexplicable e inmenso amor
+El Dios eterno dejó su gloria
+Para sufrir mi maldición
+
+La cruz lo ha dicho: Soy perdonado
+Me ha redimido El gran Rey
+Salvador mío, Tuya es mi vida
+Oh Jesús mi esperanza fiel
+
+// ¡Aleluya! Gloria a Aquel que me salvó
+¡Aleluya! De la muerte me libró
+Las cadenas rotas son
+En Tu Nombre hay salvación
+Oh Jesús mi esperanza fiel //
+
+// Él su promesa selló aquel día
+Cuando su cuerpo se levantó
+Su voz de trueno rompió el silencio
+La muerte allí Cristo derrotó //
+En victoria resucitó
+`,
+  },
+  466: {
+    id: 466,
+    titulo: "En el monte Calvario",
+    artista: "",
+    fecha: "",
+    fechaSlug: "domingo-24",
+    letra: `En el monte Calvario estaba una cruz,
+emblema de afrenta y dolor,
+Mas yo amo a Jesús,
+quien murió en la cruz,
+Por salvar al más vil pecador.
+
+Coro:
+Gloriaréme solo en la cruz,
+En sus triunfos mi gozo será,
+Y en el día de eterna salud
+Mi corona Jesús me dará.
+
+Y aunque el mundo desprecie
+la cruz de Jesús,
+Para mí tiene suma atracción;
+Pues en ella llevó el “Cordero de Dios”
+De mi culpa la condenación.
+
+En la cruz de Jesús, do su sangre vertió,
+Hermosura contemplo sin par;
+Pues en ella triunfante
+a la muerte venció,
+Y mi ser puede santificar.
+
+Yo quisiera seguir en pos de Jesús,
+Y su cruel menosprecio llevar;
+Y algún día feliz con los santos en luz
+En la gloria con El he de estar.
+`,
+  },
 };
 
 // ==========================
@@ -537,7 +728,7 @@ export default function CancionLetraPage(props: PageProps) {
           </Card>
 
           {/* Controles de texto */}
-          <div className="flex justify-center mb-6 sm:hidden">
+          <div className="flex justify-center mb-6">
             <div className="flex items-center space-x-2 bg-white rounded-full px-4 py-2 shadow-sm border">
               <Type className="w-4 h-4 text-gray-500" />
               <Button
@@ -551,7 +742,7 @@ export default function CancionLetraPage(props: PageProps) {
                       getComputedStyle(content).fontSize
                     );
                     content.style.fontSize =
-                      Math.max(32, currentSize - 2) + "px";
+                      Math.max(14, currentSize - 2) + "px";
                   }
                 }}
               >

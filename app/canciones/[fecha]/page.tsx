@@ -8,63 +8,31 @@ import Image from "next/image";
 
 // Datos de ejemplo - en una aplicación real esto vendría de una base de datos
 export const cancionesPorFecha = {
-  "miercoles-13": {
-    fecha: "Miércoles 13",
-    fechaCompleta: "Miércoles 13",
-    tipo: "Estudio Bíblico",
-    canciones: [
-      {
-        id: 1,
-        titulo: "Todo lo que creó el Rey",
-        artista: "",
-        duracion: "4:32",
-      },
-      { id: 2, titulo: "Dios poderoso", artista: "", duracion: "3:45" },
-      { id: 3, titulo: "Habla, oh Dios", artista: "", duracion: "4:12" },
-      {
-        id: 4,
-        titulo: "Señor mi Dios al contemplar los cielos",
-        artista: "",
-        duracion: "3:28",
-      },
-    ],
-  },
-  "domingo-17": {
+  "domingo-24": {
     fecha: "Domingo",
-    fechaCompleta: "Domingo 17",
+    fechaCompleta: "Domingo 24/08/2025",
     tipo: "Reunión de Predicación y Santa Cena",
     canciones: [
       {
-        id: 140,
-        titulo: "Levántate, iglesia del Señor",
+        id: 210,
+        titulo: "Que lo sabe todo el Padre",
         artista: "",
         duracion: "4:32",
       },
       {
-        id: 141,
-        titulo: "Todo lo que creó el Rey",
+        id: 112,
+        titulo: "Si paz cual un rio",
         artista: "",
         duracion: "3:45",
       },
-      { id: 131, titulo: "Habla, oh Dios", artista: "", duracion: "4:12" },
+      { id: 99, titulo: "Ciudad de Dios", artista: "", duracion: "4:12" },
       {
-        id: 110,
-        titulo: "Hubo quien por mí culpa",
+        id: 104,
+        titulo: "Mi esperanza fiel",
         artista: "",
         duracion: "3:28",
       },
-      { id: 87, titulo: "Gracias, Cristo", artista: "", duracion: "3:28" },
-    ],
-  },
-  "miercoles-20": {
-    fecha: "Miércoles",
-    fechaCompleta: "Miércoles 20",
-    tipo: "Reunión de Oración",
-    canciones: [
-      { id: 136, titulo: "Todo por tu gloria", artista: "", duracion: "" },
-      { id: 132, titulo: "En ti esperamos", artista: "", duracion: "" },
-      { id: 125, titulo: "Mi alma esperará", artista: "", duracion: "" },
-      { id: 54, titulo: "Sólo en Jesús", artista: "", duracion: "" },
+      { id: 466, titulo: "En el monte Calvario", artista: "", duracion: "3:28" },
     ],
   },
 };
@@ -155,14 +123,14 @@ export default async function FechaCancionesPage(props: PageProps) {
               >
                 <CardContent className="p-6">
                   <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-4">
+                    <div className="flex items-center space-x-4 mr-3">
                       <div className="w-12 h-12 bg-primary-light rounded-full flex items-center justify-center">
                         <span className="text-primary font-semibold">
                           {index + 1}
                         </span>
                       </div>
                       <div>
-                        <h3 className="text-lg font-semibold text-gray-900">
+                        <h3 className="text-md font-semibold text-gray-900">
                           {cancion.id}. {cancion.titulo}
                         </h3>
                         <p className="text-gray-600">{cancion.artista}</p>
@@ -176,7 +144,7 @@ export default async function FechaCancionesPage(props: PageProps) {
                       className="bg-primary hover:bg-primary-dark"
                     >
                       <Link href={`/canciones/${params.fecha}/${cancion.id}`}>
-                        <Play className="w-4 h-4 mr-2" />
+                        <Play className="w-3 h-3 mr-3" />
                         Ver Letra
                       </Link>
                     </Button>
