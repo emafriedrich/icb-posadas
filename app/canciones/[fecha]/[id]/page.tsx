@@ -12,155 +12,158 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
-  141: {
-    id: 141,
+  114: {
+    id: 114,
     titulo: "Todo lo que creó el Rey",
     artista: "",
-    fecha: "Domingo 17",
-    fechaSlug: "domingo-17",
-    letra: `Todo lo que creó el Rey
-Alce su voz y cante a Él
-¡Oh alaben! ¡Aleluya!
+    fecha: "Miércoles 27",
+    fechaSlug: "miercoles-27",
+    letra: `Por fe veremos a nuestro Dios
+En el plan que creó en la eternidad,
+En la vida de los fieles que llamó
+A vivir por fe y no por ver.
 
-Tú, majestuoso y fuerte sol
-Tú, luna bella en esplendor
-¡Oh alaben! ¡Oh alaben!
-¡Aleluya! ¡Aleluya! ¡Aleluya!
+Por fe el justo vivirá;
+Por la fe caminamos junto a Él
+Como viendo al invisible, Protector;
+Vivir por fe y no por ver.
 
-Todos bendigan al Creador
-Rindan humilde adoración
-¡Oh alaben! ¡Aleluya!
+Sus promesas como roca son;
+Sus promesas cumple nuestro Dios.
+Nos movemos solo por la fe en Él.
+Vivir por fe y no por ver.
 
-Al Padre, al Hijo Redentor
-Al Santo Espíritu de Dios
-¡Oh alaben! ¡Oh alaben!
-¡Aleluya! ¡Aleluya! ¡Aleluya!
+Por fe profetas hablaron fiel;
+Por la fe proclamaron la verdad
+Del Mesías prometido en Edén,
+El que la muerte venció en la cruz.
+Por fe la iglesia se moverá
+Con poder del Espíritu de Dios;
+Y las huestes del infierno no podrán
+Dañar la obra de nuestro Dios.
 
-Los que Su sangre redimió
-Vengan y gócense en Su amor
-¡Oh alaben! ¡Aleluya!
+Sus promesas como roca son;
+Sus promesas cumple nuestro Dios.
+Nos movemos solo por la fe en Él.
+Vivir por fe y no por ver.
 
-Todo pecado Él ya venció
-Pongan sus cargas en Él hoy
-¡Oh alaben! ¡Oh alaben!
-¡Aleluya! ¡Aleluya! ¡Aleluya!
+Por fe los montes se moverán,
+Si la fe permanece en Jesús;
+El poder del evangelio librará
+A todo aquel que confía en Él.
 
-Él con poder regresará
-Cielos y tierra cantarán
-¡Oh alaben! ¡Aleluya!
-
-¿Quiénes caerán ante Sus pies?
-Todo lo que creó el Rey
-¡Oh alaben! ¡Oh alaben!
-¡Aleluya! ¡Aleluya!
-
-¡Oh alaben! ¡Oh alaben!
-¡Aleluya! ¡Aleluya! ¡Aleluya!`,
+Sus promesas como roca son;
+Sus promesas cumple nuestro Dios.
+Nos movemos solo por la fe en Él.
+Vivir por fe y no por ver.
+`,
   },
-  2: {
-    id: 2,
+  128: {
+    id: 128,
     titulo: "Dios poderoso",
     artista: "",
-    fecha: "Miércoles 13",
+    fecha: "Miércoles 27",
     fechaSlug: "miercoles-13",
-    letra: `Quién sino el Señor
-Las estrellas creó
-Y su luz limitó
+    letra: `De lo profundo clamo a ti
+Te llamaré en mi oscuridad
+Inclina oh Dios tu oído a mí
+Señor, te pido, ten piedad
 
-Quién sino el Señor
-Sol y luna formó
-Movimiento les dio
+Si Tú contaras mi maldad
+¿Cómo vendría ante tu altar?
+Me asombra ver que en Ti hay perdón
+Por gracia redimido soy.
 
-Quién sino el Señor
-Hace la lluvia venir
-Truenos rugir
-Tus obras grandes son
+En Ti esperaré
+En Ti esperaré
+En tu verdad descansaré
+En Ti esperaré
+Si, yo esperaré
+Hasta saciar todo mi ser.
 
-Dios Poderoso
-Tú gobiernas la creación
-Con Tu Palabra Señor
-Te exaltaremos
+Pon tu esperanza solo en Dios
+Y en su poder de salvación
+Completamente Él venció
+Cristo el Señor resucitó
 
-Dios Poderoso
-De Ti canta la creación
-Llenas todo Tú Señor
-Te exaltaremos
-Por siempre y siempre oh Dios
+Ya el camino Él abrió
+Dios mismo, el precio lo pagó
+Y aquellos que confíen hoy
+En Él tendrán restauración.
 
-Quién sino el Señor
-Ha soñado en el plan
-Para al hombre salvar
-
-Quién sino el Señor
-Limpiará al pecador
-Con Su sangre y amor
-
-Quién sino el Señor
-Puede dar vida y salvar
-Por una cruz
-Tus planes grandes son
-
-Dios Poderoso
-Tú gobiernas la creación
-Con Tu Palabra Señor
-Te exaltaremos
-
-Dios Poderoso
-De Ti canta la creación
-Llenas todo Tú Señor
-Te exaltaremos
-Por siempre y siempre oh Dios
-
-Todas las cosas
-Vienen de Ti y por Ti
-Oh gran Yo Soy
-
-Todo es Tuyo
-Y para Ti oh Señor
-Oh gran Yo Soy`,
+//Yo te esperaré
+Yo te esperaré
+En la prueba y tempestad
+Yo te esperaré
+Si, te esperaré
+Tu amor me saciará.//
+`,
   },
-  131: {
-    id: 131,
-    titulo: "Habla oh Dios",
+  11111: {
+    id: 11111,
+    titulo: "Soberano Dios",
     artista: "",
-    fecha: "Domingo 17",
-    fechaSlug: "domingo-17",
-    letra: `Habla, oh Dios y yo escucharé
-Quiero recibir Tu palabra fiel
-Tu verdad plántala en mi ser
-Y moldéame a Tu imagen
+    fecha: "Miércoles 27",
+    fechaSlug: "miercoles-27",
+    letra: `Fortaleza hay en pruebas,
+hay belleza en el dolor.
+Me sostienes en mis fallas,
+en Tus manos de amor.
 
-Que Tu voz, oh Dios, dé su fruto en mí
-Produciendo amor y el obrar por fe
-Habla, oh Dios y haz Tu obra en mí
-Para Tu honor y Tu gloria
+Y Tu obras en silencio,
+para santificarme.
+Tu permites mis dolores,
+para confirmar mi fe.
 
-Habla, oh Dios y enséñame
-A obedecer con toda humildad
-Pruébame y escudríñame
-Bajo el resplandor de tu santidad
+Tus planes son perfectos,
+Tu no me olvidarás.
+Estás conmigo en la tempestad.
 
-Haz crecer mi fe, haz que pueda ver
-Tu glorioso amor y Tu autoridad
-Que Tu voz, voz de gran poder
-Quite de mi ser, la incredulidad
+¡Fiel para siempre! ¡Perfecto en amor!
+Eres, Soberano Dios.
 
-Habla, oh Dios y renuévame
-Para comprender Tus propósitos
-Tu verdad nunca cambiará
-Permanecerá por la eternidad
+Tu eres Sabiduría,
+nadie puede comprender.
+Y Tu reinas sobre el cielo,
+y Tu gracia eterna es.
 
-Junto a Ti, por fe, yo caminaré
-Tus promesas son mi único sostén
-Habla, oh Dios, edifícanos
-Llena el mundo hoy de Tu gloria`,
+Tu levantas al caído,
+no se mide Tu bondad.
+Me rodeas y sostienes,
+Tus promesas nunca fallarán.
+
+Tus planes son perfectos,
+Tu no me olvidarás.
+Estás conmigo en la tempestad.
+
+¡Fiel para siempre! ¡Perfecto en amor!
+Eres, Soberano Dios.
+
+Cuando Satanás quiere herirnos,
+Tu buscas nuestro bien, Tu buscas nuestro bien,
+¡Para Tu gloria! 
+
+Ahora en el camino más oscuro,
+Procuras nuestro bien, Procuras nuestro Bien,
+¡Para Tu gloria!
+
+Cuando Satanás quiere herirnos,
+Tu buscas nuestro bien, Tu buscas nuestro bien,
+¡Para Tu gloria!
+
+Tus planes son perfectos,
+Tu no me olvidarás.
+Estás conmigo en la tempestad.
+
+¡Fiel para siempre! ¡Perfecto en amor!
+Eres, Soberano Dios.`,
   },
-  4: {
-    id: 4,
-    titulo: "Señor mi Dios",
+  144: {
+    id: 144,
+    titulo: "No soy yo sino Cristo en mi",
     artista: "",
-    fecha: "Miércoles 13",
-    fechaSlug: "miercoles-13",
+    fecha: "Miércoles 27",
+    fechaSlug: "miercoles-27",
     letra: `Señor, mi Dios, al contemplar los cielos,
 el firmamento y las estrellas mil;
 al oír tu voz en los potentes truenos
@@ -188,7 +191,7 @@ de su poder y su infinito amor:`,
     id: 140,
     titulo: "Levántate, iglesia del Señor",
     artista: "",
-    fecha: "Domingo 17",
+    fecha: "Miércoles 27",
     fechaSlug: "domingo-17",
     letra: `Levántate, iglesia del Señor,
 cíñete de Su armadura;
@@ -231,7 +234,7 @@ Hasta estar con Él en gloria.//
     id: 110,
     titulo: "Hubo quien por mí culpa",
     artista: "",
-    fecha: "Domingo 17",
+    fecha: "Miércoles 27",
     fechaSlug: "domingo-17",
     letra: `Hubo quien por mis culpas muriera en la cruz,
 Aunque indigno y vil como soy.
@@ -257,7 +260,7 @@ En la cruz mi pecado clavó.`,
     id: 87,
     titulo: "Gracias, Cristo",
     artista: "",
-    fecha: "Domingo 17",
+    fecha: "Miércoles 27",
     fechaSlug: "domingo-17",
     letra: `El misterio de la cruz 
 no puedo comprender
@@ -639,7 +642,7 @@ export const cancionesPorFecha = Object.values(cancionesData).reduce(
   },
   {} as Record<
     string,
-    { fecha: string; canciones: (typeof cancionesData)[141][] }
+    { fecha: string; canciones: (typeof cancionesData)[144][] }
   >
 );
 
