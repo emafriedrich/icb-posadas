@@ -63,7 +63,7 @@ Vivir por fe y no por ver.
     titulo: "Dios poderoso",
     artista: "",
     fecha: "Miércoles 27",
-    fechaSlug: "miercoles-13",
+    fechaSlug: "miercoles-27",
     letra: `De lo profundo clamo a ti
 Te llamaré en mi oscuridad
 Inclina oh Dios tu oído a mí
@@ -192,7 +192,7 @@ de su poder y su infinito amor:`,
     titulo: "Levántate, iglesia del Señor",
     artista: "",
     fecha: "Miércoles 27",
-    fechaSlug: "domingo-17",
+    fechaSlug: "miercoles-27",
     letra: `Levántate, iglesia del Señor,
 cíñete de Su armadura;
 Oye la voz de Cristo el Capitán;
@@ -235,7 +235,7 @@ Hasta estar con Él en gloria.//
     titulo: "Hubo quien por mí culpa",
     artista: "",
     fecha: "Miércoles 27",
-    fechaSlug: "domingo-17",
+    fechaSlug: "miercoles-27",
     letra: `Hubo quien por mis culpas muriera en la cruz,
 Aunque indigno y vil como soy.
 Soy feliz, pues su sangre vertió me Jesús,
@@ -261,7 +261,7 @@ En la cruz mi pecado clavó.`,
     titulo: "Gracias, Cristo",
     artista: "",
     fecha: "Miércoles 27",
-    fechaSlug: "domingo-17",
+    fechaSlug: "miercoles-27",
     letra: `El misterio de la cruz 
 no puedo comprender
 La angustia que llegó a sufrir
@@ -286,7 +286,7 @@ Tu misericordia es sin igual`,
     titulo: "Todo por Tu gloria",
     artista: "",
     fecha: "",
-    fechaSlug: "miercoles-20",
+    fechaSlug: "miercoles-27",
     letra: `Cuando estaba muerto en vida
 Extraviado y sin salida
 Me buscaste
@@ -318,7 +318,7 @@ Te alabo, te alabo`,
     titulo: "En ti esperamos",
     artista: "",
     fecha: "",
-    fechaSlug: "miercoles-20",
+    fechaSlug: "miercoles-27",
     letra: `Oh, líbranos del mal, Señor
 El mundo quebrantado está
 Aunque haya guerras y dolor
@@ -359,7 +359,7 @@ En ti esperamos, oh, Señor
     titulo: "Mi alma esperará",
     artista: "",
     fecha: "",
-    fechaSlug: "miercoles-20",
+    fechaSlug: "miercoles-27",
     letra: `Si me acecha Satanás y desmayo en mi interior,
 Si me cubre oscuridad y me agobia el temor;
 En silencio esperaré, confiaré en Ti, Señor,
@@ -396,7 +396,7 @@ Nuestro Salvador.`,
     titulo: "Sólo en Jesús",
     artista: "",
     fecha: "",
-    fechaSlug: "miercoles-20",
+    fechaSlug: "miercoles-27",
     letra: `Sólo en Jesús esta mi fe, 
 Mi esperanza y mi canción, 
 Piedra Angular, firme sostén, 
@@ -439,7 +439,7 @@ En Su Poder me sostendré //`,
     titulo: "Que lo sabe todo el Padre",
     artista: "",
     fecha: "",
-    fechaSlug: "domingo-24",
+    fechaSlug: "miercoles-27",
     letra: `Que lo sabe todo el Padre,
 Es mi certitud,
 Y que en gracia él por mí vela,
@@ -481,7 +481,7 @@ Cristo el Salvador.`,
     titulo: "Si paz cual un rio",
     artista: "",
     fecha: "",
-    fechaSlug: "domingo-24",
+    fechaSlug: "miercoles-27",
     letra: `Si paz cual un río es aquí mi porción,
 Si es como las olas del mar,
 Cualquiera mi suerte, es ya mi canción
@@ -516,7 +516,7 @@ Esperando mi alma hoy está.`,
     titulo: "Ciudad de Dios",
     artista: "",
     fecha: "",
-    fechaSlug: "domingo-24",
+    fechaSlug: "miercoles-27",
     letra: `Hay un lugar al que mi alma
 Anhela tanto por llegar
 Una ciudad donde hay descanso
@@ -555,7 +555,7 @@ Recuerdo de la redención
     titulo: "Mi esperanza fiel",
     artista: "",
     fecha: "",
-    fechaSlug: "domingo-24",
+    fechaSlug: "miercoles-27",
     letra: `¡Cuán grande abismo nos separaba!
 ¡Jamás tal cima pude escalar!
 Desesperado miré hacia el cielo
@@ -594,7 +594,7 @@ En victoria resucitó
     titulo: "En el monte Calvario",
     artista: "",
     fecha: "",
-    fechaSlug: "domingo-24",
+    fechaSlug: "miercoles-27",
     letra: `En el monte Calvario estaba una cruz,
 emblema de afrenta y dolor,
 Mas yo amo a Jesús,
@@ -793,7 +793,7 @@ export default function CancionLetraPage(props: PageProps) {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="outline" asChild>
               <Link href={`/canciones/${params.fecha}`}>
-                ← Volver a Canciones del Domingo
+                ← Volver
               </Link>
             </Button>
           </div>
