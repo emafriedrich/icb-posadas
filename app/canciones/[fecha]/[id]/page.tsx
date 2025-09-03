@@ -625,6 +625,141 @@ Y algún día feliz con los santos en luz
 En la gloria con El he de estar.
 `,
   },
+  79: {
+    id: 79,
+    titulo: "79 - Inmerecedor",
+    artista: "",
+    duracion: "",
+    fecha: "Miércoles 3",
+    fechaSlug: "miercoles-3",
+    letra: `Inmerecedor, 
+soy de tu gracia y tu perdón
+De tu perfecto amor, Indigno soy.
+No existe nada en mi
+Por lo cual pueda, yo pagar
+Tu tierna y dulce paz, 
+tu eterna bondad
+Tú me has amado
+ y has decidido estar aquí
+Para abrazarme 
+sin recordarme lo que fui.
+Un pecador
+ que de ti su rostro escondió,
+No merecía el regalo de tu amor.
+
+
+Yo quiero agradecerte, Amarte siempre
+Con gran pasión como lo has hecho tú.
+Quiero corresponderte,
+Ser fiel por siempre
+Con decisión y no fallar jamás`,
+  },
+  82: {
+    id: 82,
+    titulo: "82 - Oh Gran Dios Altísimo",
+    artista: "",
+    duracion: "",
+    fecha: "Miércoles 3",
+    fechaSlug: "miercoles-3",
+    letra: `Oh gran Dios altísimo
+reina en mi corazón
+Se tú el dueño de mi ser
+Vence toda rebelión
+No haya vicio ni maldad
+ante ti oh Santo Dios
+Me has comprado por amor,
+hazme tuyo oh Señor
+
+
+Mi pecado me cegó
+no escuchaba yo tu voz
+Ignoraba tu amor
+me alejé de ti Señor
+Mas tu Espíritu me dio
+vida y tu palabra obró
+A tu Hijo conocí
+su evangelio me salvó.
+
+
+Ahora ayúdame a vivir
+de tu gracia depender
+Guarda mi alma y corazón
+del maligno líbrame
+Digno de mi adoración
+tuyo es todo mi existir
+Oh gran Dios, altísimo
+glorifícate en mí.
+
+
+Digno de mi adoración
+tuyo es todo mi existir
+Oh gran Dios, altísimo
+glorifícate en mí.`,
+  },
+  9202020: {
+    id: 9202020,
+    titulo: "Dios ayudador por siglos fiel",
+    artista: "",
+    duracion: "",
+    fecha: "Miércoles 3",
+    fechaSlug: "miercoles-3",
+    letra: `Dios ayudador, por siglos fiel
+Mi esperanza en lo porvenir
+Refugio en medio de la tempestad
+El que confía encuentra en ti su paz
+Dios ayudador, por siglos fiel
+¿Tus pensamientos quién puede entender?
+Tu voluntad perfecta y buena es
+Obrando todo para nuestro bien,
+Oh, creo, ayúdame a creer
+
+Dios ayudador, por siglos fiel
+Mi esperanza en lo porvenir
+Tú ves lo más profundo de mi ser
+Y toda mi maldad conoces bien
+Dios ayudador, por siglos fiel
+¿Adónde yo de ti pudiera huir?
+La oscura noche me podrá cubrir
+Aun las tinieblas, luz son para ti,
+Oh, tu mano me guiará allí
+
+Dios ayudador, por siglos fiel
+Mi esperanza en lo porvenir
+Del enemigo, eres mi defensor
+Y en mi debilidad, mi guardador
+Dios ayudador, por siglos fiel
+Mi vida escrita en tu libro está
+Sé que tu gracia es mi seguridad
+Me hará perseverar hasta el final,
+Oh, hasta llevarme a tu hogar.`,
+  },
+  33: {
+    id: 33,
+    titulo: "33 - Fija tus ojos en Cristo",
+    artista: "",
+    duracion: "",
+    fecha: "Miércoles 3",
+    fechaSlug: "miercoles-3",
+    letra: `Oh alma cansada y turbada,
+Sin luz en la senda andarás,
+Al Salvador mira y vive,
+Del mundo la luz es su faz.
+
+Fija tus ojos en Cristo,
+Tan lleno de gracia y amor,
+Y lo terrenal sin valor será,
+A la luz del glorioso Jesús.
+
+De muerte a vida eterna,
+Te llama el Salvador fiel,
+En ti no domine el pecado,
+Hay siempre victoria en Él.
+
+Jamás faltará su promesa,
+Él dijo: Contigo yo estoy,
+Al mundo perdido ve pronto,
+Y anuncia la salvación hoy.`,
+  },
 };
 
 // ==========================
@@ -792,9 +927,7 @@ export default function CancionLetraPage(props: PageProps) {
           {/* Navegación entre canciones */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="outline" asChild>
-              <Link href={`/canciones/${params.fecha}`}>
-                ← Volver
-              </Link>
+              <Link href={`/canciones/${params.fecha}`}>← Volver</Link>
             </Button>
           </div>
 
