@@ -13,37 +13,9 @@ import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react";
 const cancionesPorFecha = [
   {
     fecha: "Domingo",
-    fechaCompleta: "Domingo 17",
-    tipo: "Reunión de Predicación y Estudio Bíblico",
-    slug: "domingo-17",
-    canciones: [
-      {
-        id: 5,
-        titulo: "Levántate, iglesia del Señor",
-        artista: "",
-        duracion: "4:32",
-      },
-      {
-        id: 1,
-        titulo: "Todo lo que creó el Rey",
-        artista: "",
-        duracion: "3:45",
-      },
-      { id: 3, titulo: "Habla, oh Dios", artista: "", duracion: "4:12" },
-      {
-        id: 6,
-        titulo: "Hubo quien por mí culpa",
-        artista: "",
-        duracion: "3:28",
-      },
-      { id: 7, titulo: "Gracias, Cristo", artista: "", duracion: "3:28" },
-    ],
-  },
-  {
-    fecha: "Miércoles",
-    fechaCompleta: "Miércoles 20",
-    tipo: "Reunión de Predicación y Estudio Bíblico",
-    slug: "miercoles-20",
+    fechaCompleta: "Domingo 07",
+    tipo: "Reunión de Predicación y Santa Cena",
+    slug: "domingo-06",
     canciones: [
       { id: 136, titulo: "Todo por tu gloria", artista: "", duracion: "" },
       { id: 132, titulo: "En ti esperamos", artista: "", duracion: "" },
@@ -56,12 +28,12 @@ const cancionesPorFecha = [
 export default function CancionesPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-primary-muted to-white">
-      {/* Header */}
+
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-6xl mx-auto px-3 sm:px-4 py-3 sm:py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              {/* Botón volver */}
+      
               <Button
                 variant="ghost"
                 size="sm"

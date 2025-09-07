@@ -696,13 +696,13 @@ tuyo es todo mi existir
 Oh gran Dios, altísimo
 glorifícate en mí.`,
   },
-  9202020: {
-    id: 9202020,
+  200: {
+    id: 200,
     titulo: "Dios ayudador por siglos fiel",
     artista: "",
     duracion: "",
-    fecha: "Miércoles 3",
-    fechaSlug: "miercoles-3",
+    fecha: "Domingo 07",
+    fechaSlug: "domingo-07",
     letra: `Dios ayudador, por siglos fiel
 Mi esperanza en lo porvenir
 Refugio en medio de la tempestad
@@ -738,8 +738,8 @@ Oh, hasta llevarme a tu hogar.`,
     titulo: "33 - Fija tus ojos en Cristo",
     artista: "",
     duracion: "",
-    fecha: "Miércoles 3",
-    fechaSlug: "miercoles-3",
+    fecha: "Domingo 07",
+    fechaSlug: "domingo-07",
     letra: `Oh alma cansada y turbada,
 Sin luz en la senda andarás,
 Al Salvador mira y vive,
@@ -759,6 +759,104 @@ Jamás faltará su promesa,
 Él dijo: Contigo yo estoy,
 Al mundo perdido ve pronto,
 Y anuncia la salvación hoy.`,
+  },
+  470: {
+    id: 470,
+    titulo: "Es tu fidelidad",
+    artista: "",
+    duracion: "4:32",
+    fecha: "Domingo 07",
+    fechaSlug: "domingo-07",
+    letra: `Es tu fidelidad tan grande, Padre,
+Tú dices la verdad, descanso allí.
+Tu luz rodea mi senda en el mundo,
+Tu voz me anima; mi fuerza es en Ti.
+
+¡Oh, qué fidelidad! ¡Oh, qué fidelidad!
+Nunca me canso de darte loor;
+Cada mañana es nueva tu gracia,
+Inalterable es tu gran amor.
+
+Los enemigos son muy poderosos,
+Tú eres mi amigo, Dios, Fuerte Adalid,
+En la batalla me das hoy tu ayuda,
+Vencido no seré, confiando en Ti.
+
+En tu presencia, Dios, hay gran descanso,
+Dulce consolación, perfecta paz;
+Al ver las glorias de Cristo el Señor,
+Le hemos de celebrar siempre jamás.`,
+  },
+  69: {
+    id: 69,
+    titulo: "Contempla a Dios",
+    artista: "",
+    duracion: "4:32",
+    fecha: "Domingo 07",
+    fechaSlug: "domingo-07",
+    letra: `¿Quién formó las olas al hablar?
+¿Quién contó la arena en el mar?
+Reyes, pueblos, tiemblan a su voz
+La creación le rinde adoración.
+
+Contempla a Dios, en su trono está
+Venid y adoradle
+Contempla al Rey, Nadie es como él
+Venid y adoradle.
+
+¿Quién le dio consejo al Señor?
+¿Quién cuestiona lo que él habló?
+¿Quién al sabio Dios puede enseñar?
+¿Quién comprende su gran majestad?
+
+¿Quién sufrió los clavos en dolor?
+¿Quién llevó el mal del pecador?
+Jesucristo, humilde al perecer
+Ha triunfado y reina con poder
+
+Contempla a Dios, en su trono está
+Venid y adoradle
+Contempla al Rey, Nadie es como él
+Venid y adoradle.
+
+¡Reinarás por siempre!
+¡Que tu gloria brille hoy!`,
+  },
+  97: {
+    id: 97,
+    titulo: "Roca de la eternidad",
+    artista: "",
+    duracion: "4:32",
+    fecha: "Domingo 07",
+    fechaSlug: "domingo-07",
+    letra: `Roca de la eternidad
+Fuiste abierta tú por mí
+Sé mi escondedero fiel
+Paz encuentro solo en ti
+Rico y limpio manantial
+En el cual lavado fui
+
+Aunque sea siempre fiel
+Aunque llore sin cesar
+Del pecado no podré
+Justificación lograr
+Solo en ti, teniendo fe
+Sobre el mal podré triunfar
+
+Nada traigo para ti
+Mas tu cruz es mi sostén
+Desprovisto y en escasez
+Hallo en ti la paz y el bien
+Sucio y vil, acudo a ti
+A ser puro y limpio al fin
+
+Mientras haya de vivir
+Y al instante de expirar
+Cuando vaya a responder
+En tu augusto tribunal
+Sé mi escondedero fiel
+Roca de la eternidad
+`,
   },
 };
 
