@@ -12,151 +12,119 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
-  114: {
-    id: 114,
+  60: {
+    id: 60,
     titulo: "Todo lo que creó el Rey",
     artista: "",
-    fecha: "Miércoles 27",
-    fechaSlug: "miercoles-27",
-    letra: `Por fe veremos a nuestro Dios
-En el plan que creó en la eternidad,
-En la vida de los fieles que llamó
-A vivir por fe y no por ver.
+    fecha: "Miércoles 10",
+    fechaSlug: "miercoles-10",
+    letra: `El Dios que hizo los cielos y la tierra
+Con el poder de su palabra
+Reina con autoridad
+El Dios que aún los vientos le obedecen
+Una palabra es suficiente
+Para los muertos levantar
 
-Por fe el justo vivirá;
-Por la fe caminamos junto a Él
-Como viendo al invisible, Protector;
-Vivir por fe y no por ver.
+Nadie es como Él
+Oh gran yo soy
+Tú eres el Dios que adoramos
+Todopoderoso y soberano
+Grande en misericordia y poder para salvar
+Tú eres el Dios que adoramos
+Quien derrotó la muerte y el pecado
+Glorioso redentor y rey, te adoramos
 
-Sus promesas como roca son;
-Sus promesas cumple nuestro Dios.
-Nos movemos solo por la fe en Él.
-Vivir por fe y no por ver.
+El Dios que descendió desde su trono
+Para llevar sobre sus hombros
+Nuestra culpa y transgresión
+Jesús, exaltado sobre todo
+Nombre sobre todo nombre
+sólo en Él hay salvación
 
-Por fe profetas hablaron fiel;
-Por la fe proclamaron la verdad
-Del Mesías prometido en Edén,
-El que la muerte venció en la cruz.
-Por fe la iglesia se moverá
-Con poder del Espíritu de Dios;
-Y las huestes del infierno no podrán
-Dañar la obra de nuestro Dios.
+Nadie es como Él
+Oh gran yo soy
 
-Sus promesas como roca son;
-Sus promesas cumple nuestro Dios.
-Nos movemos solo por la fe en Él.
-Vivir por fe y no por ver.
+Tu eres el Dios que adoramos…
 
-Por fe los montes se moverán,
-Si la fe permanece en Jesús;
-El poder del evangelio librará
-A todo aquel que confía en Él.
-
-Sus promesas como roca son;
-Sus promesas cumple nuestro Dios.
-Nos movemos solo por la fe en Él.
-Vivir por fe y no por ver.
+A él sea la gloria y el poder
+Todo es de Él y para Él
 `,
   },
-  128: {
-    id: 128,
-    titulo: "Dios poderoso",
+  89: {
+    id: 89,
+    titulo: "Su gracia es mayor ",
     artista: "",
-    fecha: "Miércoles 27",
-    fechaSlug: "miercoles-27",
-    letra: `De lo profundo clamo a ti
-Te llamaré en mi oscuridad
-Inclina oh Dios tu oído a mí
-Señor, te pido, ten piedad
+    fecha: "Miércoles 10",
+    fechaSlug: "miercoles-10",
+    letra: `¿Qué amor mis pecados decide olvidar?
+Lanzados al mar no los quiere contar
+Él siendo omnisciente olvida mi error
+Mis faltas son muchas, su gracia es mayor
 
-Si Tú contaras mi maldad
-¿Cómo vendría ante tu altar?
-Me asombra ver que en Ti hay perdón
-Por gracia redimido soy.
+CORO:  Gloria a Dios
+Su gracia es mayor
+Sus misericordias, hoy nuevas son
+Mis faltas son muchas, su gracia es mayor
 
-En Ti esperaré
-En Ti esperaré
-En tu verdad descansaré
-En Ti esperaré
-Si, yo esperaré
-Hasta saciar todo mi ser.
+Paciente me aguarda en mi desviar
+Un padre, que tierno, me llama al hogar
+Recibe al débil, y vil pecador
+Mis faltas son muchas, su gracia es mayor
 
-Pon tu esperanza solo en Dios
-Y en su poder de salvación
-Completamente Él venció
-Cristo el Señor resucitó
+Qué grandes riquezas él nos otorgó
+Su sangre fue el pago, su vida entregó
+Pagó esa deuda y la canceló
+Mis faltas son muchas, su gracia es mayor
 
-Ya el camino Él abrió
-Dios mismo, el precio lo pagó
-Y aquellos que confíen hoy
-En Él tendrán restauración.
 
-//Yo te esperaré
-Yo te esperaré
-En la prueba y tempestad
-Yo te esperaré
-Si, te esperaré
-Tu amor me saciará.//
+///CORO///
+
 `,
   },
-  11111: {
-    id: 11111,
-    titulo: "Soberano Dios",
+  144: {
+    id: 144,
+    titulo: "No soy yo sino Cristo en mí",
     artista: "",
-    fecha: "Miércoles 27",
-    fechaSlug: "miercoles-27",
-    letra: `Fortaleza hay en pruebas,
-hay belleza en el dolor.
-Me sostienes en mis fallas,
-en Tus manos de amor.
+    fecha: "Miércoles 10",
+    fechaSlug: "miercoles-10",
+    letra: `Que grande amor y redención es Cristo
+No hay nada más que el cielo pueda dar
+Mi rectitud, mi libertad y gozo
+Mi gracia es él mi eterna y dulce paz
+Me aferro a él Jesús es mi esperanza
+Vivo en el por siempre suyo soy
+Asombroso es cantar mío es en verdad
+No soy yo, sino en Cristo en mí
 
-Y Tu obras en silencio,
-para santificarme.
-Tu permites mis dolores,
-para confirmar mi fe.
+Tinieblas hay más no soy olvidado
+Pues junto a mí El Salvador está
+Si débil soy gozoso en el avanzo
+Pues su poder en mi se mostrará
+Me aferro a él es mi pastor y escudo
+Por profundos valles me guiara
+Él la noche venció su victoria me dio
+No soy yo sino Cristo en mí
 
-Tus planes son perfectos,
-Tu no me olvidarás.
-Estás conmigo en la tempestad.
+No temeré he sido perdonada
+Seguro estoy el precio él ya pagó
+Su sangre dio sufrió por mis pecados
+Resucitó la muerte derrotó
+Me aferro a él ya no soy condenada
+Es Jesús mi fiel intercesor
+Las cadenas rompió libertad me otorgó
+No soy yo, sino Cristo en mí
 
-¡Fiel para siempre! ¡Perfecto en amor!
-Eres, Soberano Dios.
-
-Tu eres Sabiduría,
-nadie puede comprender.
-Y Tu reinas sobre el cielo,
-y Tu gracia eterna es.
-
-Tu levantas al caído,
-no se mide Tu bondad.
-Me rodeas y sostienes,
-Tus promesas nunca fallarán.
-
-Tus planes son perfectos,
-Tu no me olvidarás.
-Estás conmigo en la tempestad.
-
-¡Fiel para siempre! ¡Perfecto en amor!
-Eres, Soberano Dios.
-
-Cuando Satanás quiere herirnos,
-Tu buscas nuestro bien, Tu buscas nuestro bien,
-¡Para Tu gloria! 
-
-Ahora en el camino más oscuro,
-Procuras nuestro bien, Procuras nuestro Bien,
-¡Para Tu gloria!
-
-Cuando Satanás quiere herirnos,
-Tu buscas nuestro bien, Tu buscas nuestro bien,
-¡Para Tu gloria!
-
-Tus planes son perfectos,
-Tu no me olvidarás.
-Estás conmigo en la tempestad.
-
-¡Fiel para siempre! ¡Perfecto en amor!
-Eres, Soberano Dios.`,
+Quiero seguir a Cristo mientras viva
+Pues prometió llevarme hasta su hogar
+Estando aquí renueva él mi vida
+Hasta llegar al gozo eternal
+Me aferro a él mi única esperanza
+A Jesús la gloria y el honor
+Cuando llegue al final estos labios dirán
+No soy yo, sino Cristo en mi
+Cuando llegue al final estos labios dirán
+No soy yo, sino Cristo en mi
+No soy yo, sino Cristo en mi`,
   },
   144: {
     id: 144,
@@ -187,47 +155,34 @@ al dulce hogar, al cielo de esplendor,
 le adoraré cantando la grandeza
 de su poder y su infinito amor:`,
   },
-  140: {
-    id: 140,
-    titulo: "Levántate, iglesia del Señor",
+  68: {
+    id: 68,
+    titulo: "Amor inmerecido",
     artista: "",
-    fecha: "Miércoles 27",
-    fechaSlug: "miercoles-27",
-    letra: `Levántate, iglesia del Señor,
-cíñete de Su armadura;
-Oye la voz de Cristo el Capitán;
-Que a su ejército nos llama.
-Con el escudo de la fe,
-y el cinturón de la verdad.
-Marchemos hoy, armados de su amor, 
-Alcanzando a los perdidos.
+    fecha: "Miércoles 10",
+    fechaSlug: "miercoles-10",
+    letra: `Dios me salvó por medio de Jesús.
+Su justicia y bondad se ven en la cruz.
+Él pagó el precio de mi maldad,
+Siendo justo ocupó mi lugar.
+Satisfecho el Padre ahora está
+En la sangre del Cordero que vivo está!
 
-Nuestra misión será servir y amar,
-combatiendo al enemigo.
-La espada de Su Espíritu
-traerá libertad a los cautivos.
-Aunque haya pruebas o tentación,
-segura es Su salvación;
-Jesús tendrá lo que ganó al morir:
-por herencia de naciones.
+Oh, cuanto amor inmerecido,
+De su bondad yo soy testigo.
+Por su sacrificio soy recibido,
+Llevando Él mí castigo.
+Oh, cuanto amor inmerecido,
+De su perdón he recibido.
+Santo soy en Jesucristo.
+Reconciliado soy en su sacrificio.
 
-Mira en la cruz la gracia y el perdón,
-donde el Hijo fue inmolado;
-Mira también vencido a sus pies, 
-Al maligno aplastado.
-La muerte no pudo ganar; 
-Jesús triunfó al resucitar.
-Y volverá reinando en esplendor
-todo ojo habrá de verlo.
-
-Espíritu, oh Dios consolador 
-Danos gozo, fe y aliento.
-Sea nuestro fin, y nuestro galardón,
-agradar sólo al Maestro.
-Los santos que lucharon ya
- celebran Su fidelidad;
-//Dios les guardó y así nos guardará, 
-Hasta estar con Él en gloria.//
+Lejos andaba yo, sin esperanza y sin Dios.
+En la vanidad del mundo y del pecar.
+Pero Dios que es rico en misericordia,
+Por su gran amor con que amo,
+Aun estando muerto en pecado
+Vida juntamente con Cristo me dio.
 `,
   },
   110: {

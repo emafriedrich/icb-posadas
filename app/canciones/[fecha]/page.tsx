@@ -8,38 +8,32 @@ import Image from "next/image";
 
 // Datos de ejemplo - en una aplicación real esto vendría de una base de datos
 export const cancionesPorFecha = {
-  "domingo-07": {
-    fecha: "Domingo",
-    fechaCompleta: "Domingo 07/09/25",
-    tipo: "Reunion de Predicación y Estudio Bíblico",
+  "miercoles-10": {
+    fecha: "miercoles",
+    fechaCompleta: "Miercoles 10/09/25",
+    tipo: "Reunion de oración y Estudio Bíblico",
     canciones: [
       {
-        id: 33,
-        titulo: "Fija tus ojos en Cristo",
+        id: 60,
+        titulo: "Al Dios que adoramos",
         artista: "",
         duracion: "",
       },
       {
-        id: 69,
-        titulo: "Contempla a Dios ",
+        id: 89,
+        titulo: "Su gracia es mayor ",
         artista: "",
         duracion: "",
       },
       {
-        id: 200,
-        titulo: "Dios Ayudador por Siglos Fiel",
+        id: 144,
+        titulo: "No soy yo sino Cristo en mí",
         artista: "",
         duracion: "",
       },
       {
-        id: 470,
-        titulo: "Es tu fidelidad",
-        artista: "",
-        duracion: "",
-      },
-      {
-        id: 97,
-        titulo: "Roca de la eternidad.",
+        id: 68,
+        titulo: "Amor inmerecido",
         artista: "",
         duracion: "",
       },
