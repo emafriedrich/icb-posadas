@@ -14,7 +14,7 @@ import { notFound } from "next/navigation";
 const cancionesData = {
   60: {
     id: 60,
-    titulo: "Todo lo que creó el Rey",
+    titulo: "El Dios que adoramos",
     artista: "",
     fecha: "Miércoles 10",
     fechaSlug: "miercoles-10",
@@ -125,35 +125,6 @@ No soy yo, sino Cristo en mi
 Cuando llegue al final estos labios dirán
 No soy yo, sino Cristo en mi
 No soy yo, sino Cristo en mi`,
-  },
-  144: {
-    id: 144,
-    titulo: "No soy yo sino Cristo en mi",
-    artista: "",
-    fecha: "Miércoles 27",
-    fechaSlug: "miercoles-27",
-    letra: `Señor, mi Dios, al contemplar los cielos,
-el firmamento y las estrellas mil;
-al oír tu voz en los potentes truenos
-y ver brillar el sol en su cenit:
-
-// Mi corazón entona la canción,
-¡Cuán grande es El! ¡Cuán grande es El! //
-
-Al recorrer los montes y los valles
-y ver las bellas flores al pasar;
-al escuchar el canto de las aves
-y el murmurar del claro manantial:
-
-Cuando recuerdo del amor divino
-que desde el cielo al Salvador envió;
-aquel Jesús que por salvarme vino
-y en una cruz sufrió por mí y murió:
-
-Cuando el Señor me llame a su presencia,
-al dulce hogar, al cielo de esplendor,
-le adoraré cantando la grandeza
-de su poder y su infinito amor:`,
   },
   68: {
     id: 68,
