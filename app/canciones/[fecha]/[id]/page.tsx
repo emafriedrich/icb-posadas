@@ -12,6 +12,187 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
+  516: {
+    id: 516,
+    titulo: "¡Qué grande carga, oh Salvador!",
+    artista: "",
+    fecha: "Domingo 14",
+    fechaSlug: "domingo-14",
+    letra: `¡Qué grande carga, oh Salvador,
+llevaste Tú por mí!
+Prueba suprema de tu amor,
+sufriendo afrentas mil.
+
+Coro:
+Nunca me olvidaré de Ti,
+de tu agonía en Getsemaní,
+Ni del Calvario do por mí,
+sufriste, oh Salvador.
+
+El enemigo en su furor,
+procura hacerte mal,
+Y los soldados sin razón,
+muestran su crueldad.
+
+Mofa de ti la multitud,
+y el sacerdocio allí,
+Se une con ella en plenitud,
+de odio y maldad tan vil.
+
+Más cual cordero así sufrió,
+por nuestra iniquidad,
+La copa amarga El apuró,
+por nos en su bondad.
+
+Y ahora cerca de tu cruz,
+quisiéramos quedar,
+Gracias Señor por la salud,
+que Tú por ella das.`,
+  },
+  417: {
+    id: 417,
+    titulo: "Grande y Fiel",
+    artista: "",
+    fecha: "Domingo 14",
+    fechaSlug: "domingo-14",
+    letra: `Mi Salvador en su bondad
+Al mundo malo descendió;
+Y de hondo abismo de maldad
+El mi alma levantó.
+Coro:
+Seguridad me dio Jesús
+Cuando El su mano me tendió;
+Estando en sombra a plena luz,
+En su bondad, me levantó.
+
+Su voz constante resistí,
+Aunque El amante me llamó;
+Mas su palabra recibí,
+Y fiel me levantó.
+
+Tortura cruel sufrió Jesús,
+Cuando en la cruz por mí murió;
+Tan sólo así me dio salud,
+Y así me levantó.
+
+Que soy feliz, yo bien lo sé,
+Con esta vida que El me dio;
+Más no comprendo aún por qué,
+Jesús me levantó.`
+  },
+  123: {
+    id: 123,
+    titulo: "Señor, mi redentor y Roca",
+    artista: "",
+    fecha: "Domingo 14",
+    fechaSlug: "domingo-14",
+    letra: `Señor, mi Redentor y Roca,
+Gran Tesoro de mi corazón;
+Mi Dios, como Tú no hay otro,
+Sólo en Ti hay gozo y salvación.
+Tu amor, más alto que los cielos,
+Tu gracia, más honda que el mar;
+Tu ley es mi sabiduría,
+Mi bien mayor y mi necesidad.
+
+Señor, mi Redentor y Roca,
+De mi vida fuerte defensor;
+Señor, Tú eres mi espada,
+Contra el mal, mi escudo protector.
+Mi canción si acechan enemigos,
+Esperanza en medio del dolor;
+Mi bien en todo sufrimiento,
+Refugio fiel en densa oscuridad.
+
+
+Señor, mi Redentor y Roca,
+De mi ruina dulce Salvador;
+Mi cruz y culpa en Tus hombros,
+Tú por mí sufriste hasta morir.
+
+//Mas Tú venciste a la muerte,
+En Ti encuentro libertad;//
+
+Señor, mi Redentor y Roca,
+Quiero vivir mis días para Ti.
+`
+  },
+  39: {
+    id: 39,
+    titulo: "Día tan grande",
+    artista: "",
+    fecha: "Domingo 14",
+    fechaSlug: "domingo-14",
+    letra: `Día tan grande no puedo olvidar,
+día de gloria sin par;
+Cuando en tinieblas al verme andar,
+vino a salvarme el Señor,
+gran compasión tuvo Cristo de mí,
+de Gozo y Paz me llenó;
+quitó las sombras, Oh Gloria a su nombre,
+la noche en día cambió.
+
+Dios descendió, de Gloria me llenó,
+cuando Jesús por Gracia me salvó;
+Fui ciego, me hizo ver
+y en El, renacer;
+Dios descendió y de Gloria me llenó,
+
+Nací de nuevo en virtud de Jesús,
+a la familia de Dios.
+Justificado por Cristo el Señor
+gozo la gran redención.
+Bendito sea mi Padre y Dios,
+que cuando vine con Fe
+fui adoptado por Cristo el amado,
+loores por siempre daré.
+
+Tengo esperanza de gloria eternal,
+me regocijo en Jesús.
+Siempre recuerdo con fe y gratitud,
+al contemplarle en la cruz,
+El me prepara  un bello rincón
+en la mansión celestial,
+justificado yo siempre alabo
+el Nombre Bendito Eternal.
+`
+  },
+  138: {
+    id: 138,
+    titulo: "Fuente de la vida eterna",
+    artista: "",
+    fecha: "Domingo 14",
+    fechaSlug: "domingo-14",
+    letra: `Fuente de la vida eterna
+Y de toda bendición
+Ensalzar tu gracia tierna
+Debe todo corazón
+Tu piedad inagotable
+Abundante en perdonar
+Único ser adorable
+Gloria a ti debemos dar
+
+De los cánticos celestes
+Te quisiéramos cantar, 
+entonados por las huestes
+Que lograste rescatar
+Almas son que redimiste
+Porque les tuviste amor
+De ellas te compadeciste
+Con tiernísimo favor
+
+Toma nuestros corazones
+Llénalos de tu verdad
+De tu espíritu los dones
+Y de toda santidad
+Guíanos en la obediencia
+Humildad, amor y fe
+Nos ampare tu clemencia
+Salvador propicio sé
+Nos ampare tu clemencia
+Salvador propicio sé
+`
+  },
   60: {
     id: 60,
     titulo: "El Dios que adoramos",
