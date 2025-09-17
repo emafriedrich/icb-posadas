@@ -12,15 +12,35 @@ import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react";
 
 const cancionesPorFecha = [
   {
-    fecha: "Domingo",
-    fechaCompleta: "Domingo 07",
+    fecha: "miercoles",
+    fechaCompleta: "Miercoles 17",
     tipo: "Reunión de Predicación y Santa Cena",
-    slug: "domingo-06",
+    slug: "miercoles-17",
     canciones: [
-      { id: 136, titulo: "Todo por tu gloria", artista: "", duracion: "" },
-      { id: 132, titulo: "En ti esperamos", artista: "", duracion: "" },
-      { id: 125, titulo: "Mi alma esperará", artista: "", duracion: "" },
-      { id: 54, titulo: "Sólo en Jesús", artista: "", duracion: "" },
+      {
+        id: 126,
+        titulo: "Noble Sostén",
+        artista: "",
+        duracion: "",
+      },
+      {
+        id: 120,
+        titulo: "Más allá del sol",
+        artista: "",
+        duracion: "",
+      },
+      {
+        id: 13,
+        titulo: "Este pueblo que has formado",
+        artista: "",
+        duracion: "",
+      },
+      {
+        id: 140,
+        titulo: "Levántate iglesia del señor",
+        artista: "",
+        duracion: "",
+      },
     ],
   },
 ];
@@ -33,7 +53,7 @@ export default function CancionesPage() {
         <div className="max-w-6xl mx-auto px-3 sm:px-4 py-3 sm:py-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-      
+
               <Button
                 variant="ghost"
                 size="sm"

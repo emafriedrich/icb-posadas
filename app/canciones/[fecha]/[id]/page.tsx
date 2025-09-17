@@ -12,6 +12,153 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
+  120: {
+    id: 120,
+    titulo: "Más allá del sol",
+    artista: "",
+    duracion: "",
+    fecha: "Miércoles 17",
+    fechaSlug: "miercoles-17",
+    letra: `Más allá del Sol
+Más allá del Sol
+Yo tengo un hogar, hogar
+bello hogar más allá del Sol
+
+Cuán gloriosa será la mañana
+Cuando venga JESÚS el Salvador
+las naciones unidas como hermanas
+Bienvenidas daremos al SEÑOR
+
+Esperamos la mañana Gloriosa
+para dar la Bienvenida al DIOS de Amor
+donde todo será color de rosa
+en la santa fragancia del SEÑOR
+
+No habrá necesidad
+de la luz, el resplandor
+ni el Sol dará su luz
+ni tampoco su calor
+allí llanto no habrá
+ni tristezas ni dolor
+porque entonces JESÚS el Rey del Cielo
+para siempre será Consolador
+
+El cristiano fiel y verdadero
+y también el obrero de valor
+y la Iglesia esposa del Cordero
+estarán en los brazos del Señor
+
+No habrá necesidad…
+`
+  },
+  13: {
+    id: 13,
+    titulo: "Este pueblo que has formado",
+    artista: "",
+    duracion: "",
+    fecha: "Miércoles 17",
+    fechaSlug: "miercoles-17",
+    letra: `Este pueblo que has formado,
+hoy viene a entregar
+las ofrendas de sus labios
+puestas en tu altar.
+
+Y canta Hosanna, Gloria, Aleluya.
+Oh Jesús amado, tu amor
+me ha cautivado.
+Y canta Hosanna, Gloria, Aleluya.
+Alabanzas hoy yo traigo
+a tu nombre Jesús
+
+Este pueblo que es tu Iglesia,
+hoy viene a buscar
+al Único, a su Amado,
+al Rey de libertad
+`
+  },
+  140: {
+    id: 140,
+    titulo: "Levántate iglesia del señor",
+    artista: "",
+    duracion: "",
+    fecha: "Miércoles 17",
+    fechaSlug: "miercoles-17",
+    letra: `Levántate, iglesia del Señor,
+cíñete de Su armadura;
+Oye la voz de Cristo el Capitán;
+Que a su ejército nos llama.
+Con el escudo de la fe,
+y el cinturón de la verdad.
+Marchemos hoy, armados de su amor, 
+Alcanzando a los perdidos.
+
+Nuestra misión será servir y amar,
+combatiendo al enemigo.
+La espada de Su Espíritu
+traerá libertad a los cautivos.
+Aunque haya pruebas o tentación,
+segura es Su salvación;
+Jesús tendrá lo que ganó al morir:
+por herencia de naciones.
+
+Mira en la cruz la gracia y el perdón,
+donde el Hijo fue inmolado;
+Mira también vencido a sus pies, 
+Al maligno aplastado.
+La muerte no pudo ganar; 
+Jesús triunfó al resucitar.
+Y volverá reinando en esplendor
+todo ojo habrá de verlo.
+
+Espíritu, oh Dios consolador 
+Danos gozo, fe y aliento.
+Sea nuestro fin, y nuestro galardón,
+agradar sólo al Maestro.
+Los santos que lucharon ya
+ celebran Su fidelidad;
+//Dios les guardó y así nos guardará, 
+Hasta estar con Él en gloria.//
+`
+  },
+  126: {
+    id: 126,
+    titulo: "Noble Sostén",
+    fechaSlug: "miercoles-17",
+    fecha: "Miércoles 17",
+    letra: `Noble sostén
+De la esperanza mía
+Fuente de vida, De vida eterna
+Tan solo el alma
+Que en sus fuerzas fía
+Tiene paz, Tiene paz
+
+Coro: Mi sostén
+Es Jesús
+Nunca en la lucha
+Desmayar podré
+Mi sostén
+Es Jesús El Señor,
+Nunca en la lucha
+Desmayar podré
+
+Dura es la lucha
+Difícil la tarea
+Mas Tú me dotas
+De tu gran poder
+Mi espíritu renuevas
+Con la idea nueva
+De vencer
+De vencer
+
+Yo, soy muy débil
+Pero en ti soy fuerte
+Nunca en la lucha
+Desmayar podré
+Si Tú estás conmigo
+Ni a la misma muerte
+Temeré, Temeré.
+`
+  },
   516: {
     id: 516,
     titulo: "¡Qué grande carga, oh Salvador!",
