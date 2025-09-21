@@ -12,32 +12,38 @@ import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react";
 
 const cancionesPorFecha = [
   {
-    fecha: "miercoles",
-    fechaCompleta: "Miercoles 17",
+    fecha: "domingo",
+    fechaCompleta: "Domingo 21",
     tipo: "Reunión de Predicación y Santa Cena",
-    slug: "miercoles-17",
+    slug: "domingo-21",
     canciones: [
       {
-        id: 126,
-        titulo: "Noble Sostén",
+        id: 14,
+        titulo: "Entra en la presencia del Señor",
         artista: "",
         duracion: "",
       },
       {
-        id: 120,
-        titulo: "Más allá del sol",
+        id: 12,
+        titulo: "Tu estás sentado, sobre tu trono",
         artista: "",
         duracion: "",
       },
       {
-        id: 13,
-        titulo: "Este pueblo que has formado",
+        id: 31,
+        titulo: "Mirarte solo a tí Señor",
         artista: "",
         duracion: "",
       },
       {
-        id: 140,
-        titulo: "Levántate iglesia del señor",
+        id: 67,
+        titulo: "Glorioso intercambio",
+        artista: "",
+        duracion: "",
+      },
+      {
+        id: 86,
+        titulo: "El poder de la cruz",
         artista: "",
         duracion: "",
       },

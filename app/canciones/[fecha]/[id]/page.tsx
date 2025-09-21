@@ -12,6 +12,163 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
+  86: {
+    id: 86,
+    titulo: "El Poder de la Cruz",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 21",
+    fechaSlug: "domingo-21",
+    letra: `Oh, al ver aquel negro amanecer
+Cristo entregado a morir
+El juzgado fue, siendo justo y fiel
+Clavado a una cruz
+
+El poder de la cruz
+Pecado Él se hizo por mí
+ira y culpa cargó
+fui perdonado en la cruz
+
+Oh, aquel dolor que tu rostro mostró
+Cargando el peso de mi maldad
+Toda corrupción, todo mal pensar
+Tu sangre cubrió allí
+
+La tierra tembló, el cielo oscureció
+viendo el dolor de su Creador
+El velo se rasgó, se escuchó
+el clamor; su obra consumó
+
+Al ver mi nombre allí, escrito sobre Ti
+por tus dolores libre soy
+La muerte derroto, la vida me otorgó
+Tu incomparable amor
+
+// El poder de la cruz
+Inmolado por mí
+¡Qué gran precio y Amor!
+Fui perdonado en la cruz  //
+`,
+  },
+  67: {
+    id: 67,
+    titulo: "Mirarte sólo a ti Señor",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 21",
+    fechaSlug: "domingo-21",
+    letra: `¿Cómo puede ser que el Bueno y justo 
+Se hizo hombre y fuera a morir 
+Por el más vil pecador? 
+¿Cómo siendo yo Su enemigo 
+El sufrimiento en mi lugar tomó 
+En aquella cruz? 
+Y cargó mi maldad sobre Él 
+Su rectitud, por la fe, mía es 
+ 
+Aleluya, glorioso intercambio 
+Oh cuan gran misterio 
+Que por gracia salvo soy 
+Aleluya, gloria sea a Cristo 
+Por Su sacrificio 
+Declarado justo soy en Él 
+
+¿Cómo es posible que en Jesús 
+Como a su Hijo Él me recibió 
+Y Su nombre llevo hoy? 
+Su perfecta vida de obediencia al Padre 
+Al yo creer, Él me otorgó 
+Y perdón me dio 
+Pues cargó mi maldad sobre Él 
+Su rectitud, por la fe, mía es.`,
+  },
+  32: {
+    id: 32,
+    titulo: "Mirarte sólo a ti Señor",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 21",
+    fechaSlug: "domingo-21",
+    letra: `/// Mirarte sólo a ti Señor, ///
+y no mirar atrás.
+Seguir tu caminar Señor,
+seguir sin desmayar, Señor,
+seguir, siempre seguir Señor,
+y no mirar atrás.
+
+/// Amarte sólo a ti Señor ///
+y no mirar atrás.
+Amar tu comunión Señor,
+amar sin falsedad Señor,
+Amar, siempre amar Señor.
+Y no mirar atrás.
+
+/// Servirte sólo a ti Señor ///
+y no mirar atrás.
+Hacer tu voluntad Señor,
+hacer sin vacilar, Señor,
+hacer, siempre hacer Señor.
+Y no mirar atrás.
+`,
+  },
+  12: {
+    id: 12,
+    titulo: "Tú estas sentado",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 21",
+    fechaSlug: "domingo-21",
+    letra: `Tú estás sentado, sobre tu trono
+siempre reinando, soberano
+Ángeles cantan, coros alaban
+Dios reunido con su pueblo.
+
+Oh! Alfa, Omega, Cristo Santo
+Oh! , ven     (3 veces)
+Señor Jesús
+
+Con muchas ansias esperamos
+ese gran día de tu vuelta.
+Y subiremos a estar contigo
+para siempre, Aleluya!
+
+Oh! Alfa, Omega, Cristo Santo.
+Oh! Ven!  (3 veces)
+Señor Jesús.
+Maranatha, ven Señor!
+Cristo Santo. Oh! Ven!   (3 veces)
+Señor Jesús.
+`,
+  },
+  14: {
+    id: 14,
+    titulo: "Entra en la presencia del Señor",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 21",
+    fechaSlug: "domingo-21",
+    letra: `Entra en la presencia del Señor
+con gratitud, y adórale de corazón.
+Entra en la presencia del Señor
+con gratitud, y alza tu voz con júbilo.
+
+Da gloria, y honra,
+y alabanzas al Señor.
+Oh Cristo, nombre sin igual.
+
+Bendito sea el Señor, Dios Poderoso,
+quien fue, quien es y quien vendrá.
+Bendito sea el Señor, Dios Poderoso,
+por siempre reinará.
+
+Padre del cielo, te adoramos,
+alzamos hoy tu nombre en alto.
+Que tu reino se establezca en alabanza,
+que tu pueblo te declare tu poder.
+
+Bendito sea......
+`,
+  },
   120: {
     id: 120,
     titulo: "Más allá del sol",
@@ -49,7 +206,7 @@ y la Iglesia esposa del Cordero
 estarán en los brazos del Señor
 
 No habrá necesidad…
-`
+`,
   },
   13: {
     id: 13,
@@ -74,7 +231,7 @@ Este pueblo que es tu Iglesia,
 hoy viene a buscar
 al Único, a su Amado,
 al Rey de libertad
-`
+`,
   },
   140: {
     id: 140,
@@ -118,7 +275,7 @@ Los santos que lucharon ya
  celebran Su fidelidad;
 //Dios les guardó y así nos guardará, 
 Hasta estar con Él en gloria.//
-`
+`,
   },
   126: {
     id: 126,
@@ -157,7 +314,7 @@ Desmayar podré
 Si Tú estás conmigo
 Ni a la misma muerte
 Temeré, Temeré.
-`
+`,
   },
   516: {
     id: 516,
@@ -225,7 +382,7 @@ Y así me levantó.
 Que soy feliz, yo bien lo sé,
 Con esta vida que El me dio;
 Más no comprendo aún por qué,
-Jesús me levantó.`
+Jesús me levantó.`,
   },
   123: {
     id: 123,
@@ -262,7 +419,7 @@ En Ti encuentro libertad;//
 
 Señor, mi Redentor y Roca,
 Quiero vivir mis días para Ti.
-`
+`,
   },
   39: {
     id: 39,
@@ -302,7 +459,7 @@ El me prepara  un bello rincón
 en la mansión celestial,
 justificado yo siempre alabo
 el Nombre Bendito Eternal.
-`
+`,
   },
   138: {
     id: 138,
@@ -338,7 +495,7 @@ Nos ampare tu clemencia
 Salvador propicio sé
 Nos ampare tu clemencia
 Salvador propicio sé
-`
+`,
   },
   60: {
     id: 60,
