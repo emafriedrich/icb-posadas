@@ -985,38 +985,37 @@ Cristo el Salvador.`,
   },
   112: {
     id: 112,
-    titulo: "Si paz cual un rio",
+    titulo: "Tengo un refugio",
     artista: "",
     fecha: "Miércoles 24",
     fechaSlug: "miercoles-24",
-    letra: `Si paz cual un río es aquí mi porción,
-Si es como las olas del mar,
-Cualquiera mi suerte, es ya mi canción
-“Está bien, con mi alma está bien”.
+    letra: `Tengo un refugio en tempestad
+Cuando aflicciones tengo
+Cuando me llena mi temor
+Mi alma en Ti descansa
+Oh Cristo, en Ti me esconderé
+Mi paz y mi consuelo
+Nada es más grande que Tu amor
+Confortas mi tristeza
 
-Coro:
-Está bien…, está bien…,
-Está bien, con mi alma está bien.
+Tengo un refugio en tempestad
+Si mi pecado acusa
+Culpable soy de mi maldad
+Tu gracia aún me acepta
+Oh Cristo, en Ti me esconderé
+Ya no soy condenado
+Refugio tengo en Tu cruz
+Y salvación encuentro
 
-Por más que Satán me tentare a mí,
-En esto consuelo tendré:
-Que Cristo, al ver cuan perdido yo fui,
-En la cruz por mi alma murió.
-
-Pecado llevó y las gracias le doy,
-Completo el trabajo está,
-llevólo en la cruz y ya libre estoy,
-¡Oh! mi alma bendice al Señor.
-
-Que viva por Cristo, y sólo por El,
-Y si yo muriese, bien sé,
-Que no temeré, porque Cristo es fiel
-Y mi alma en su paz guardará.
-
-Mas no es la muerte que espero, Señor,
-La tumba mi meta no es,
-Tu pronta venida, en tu tierno amor
-Esperando mi alma hoy está.`,
+Tengo un refugio en tempestad
+Ti temo a la tormenta
+En mi debilidad yo sé
+Tu fuerza me sustenta
+Oh Cristo, en Ti me esconderé
+Pues llevas Tú mis cargas
+Tus manos firmes me guiarán
+Hasta llevarme al cielo
+`,
   },
   99: {
     id: 99,
