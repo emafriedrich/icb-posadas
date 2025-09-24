@@ -12,6 +12,38 @@ import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react";
 
 const cancionesPorFecha = [
   {
+      fecha: "miercoles",
+    fechaCompleta: "Miercoles 24 de septiembre de 2025",
+      slug: 'miercoles-24',
+      tipo: "Reunión de Oración y Estudio Bíblico",
+      canciones: [
+        {
+          id: 2,
+          titulo: "A Jesucristo ven",
+          artista: "",
+          duracion: "",
+        },
+        {
+          id: 112,
+          titulo: "Tengo un refugio",
+          artista: "",
+          duracion: "",
+        },
+        {
+          id: 139,
+          titulo: "Agua viva",
+          artista: "",
+          duracion: "",
+        },
+        {
+          id: 333,
+          titulo: "Temtado no cedas",
+          artista: "",
+          duracion: "",
+        },
+      ],
+    },
+  /* {
     fecha: "domingo",
     fechaCompleta: "Domingo 21",
     tipo: "Reunión de Predicación y Santa Cena",
@@ -48,7 +80,7 @@ const cancionesPorFecha = [
         duracion: "",
       },
     ],
-  },
+  }, */
 ];
 
 export default function CancionesPage() {

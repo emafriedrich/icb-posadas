@@ -12,6 +12,102 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
+  2: {
+    id: 2,
+    titulo: "A Jesucristo ven",
+    artista: "",
+    duracion: "",
+    fecha: "Miércoles 24",
+    fechaSlug: "miercoles-24",
+    letra: `A Jesucristo ven sin tardar,
+Que entre nosotros hoy Él está,
+Y te convida con dulce afán,
+Tierno, diciendo: “Ven”
+
+Coro:
+¡Oh cuan grata nuestra reunión!
+Cuando al fin en celestial mansión,
+Con Él estemos en comunión,
+Gozando eterno bien.
+
+Piensa que Él solo puede colmar
+Tu triste pecho de gozo y paz,
+Y porque anhela tu bienestar
+Vuelve a decirte: “Ven”.
+
+Su voz escucha sin vacilar,
+Y grato acepta lo que hoy te da;
+Tal vez mañana no habrá lugar:
+No te detengas, ven.`,
+  },
+  139: {
+    id: 139,
+    titulo: "Agua viva",
+    artista: "",
+    duracion: "",
+    fecha: "Miércoles 24",
+    fechaSlug: "miercoles-24",
+    letra: `¿Muy sediento y vacío? 
+Ven y bebe agua viva.
+¿Quebrantado y cargado?
+Paz te ofrece el agua viva.
+Cristo llama al sediento
+En la cruz de agua viva.
+Nueva vida Cristo otorga,
+Como río de agua viva.
+Coro: 
+Hay un río de amor,
+De gracia y perdón,
+Trae gozo al pueblo del Señor. 
+Él es fiel y Su amor quitará el temor.
+¡Canta al Dios de agua viva!
+
+Él nos salva y no guarda;
+El Consolador nos sana.
+Nos conduce a la orilla
+De este río de agua viva.
+Coro
+¿Muy sediento y vacío?
+Ven y bebe el agua viva.
+Soy amado, perdonado;
+Cristo es el agua viva.
+Coro          // Hay un río de amor,
+De gracia y perdón,
+Trae gozo al pueblo del Señor. 
+Él es fiel y Su amor quitará el temor. //
+¡Canta al Dios de agua viva!
+Él es fiel y Su amor quitará el temor.
+¡Canta al Dios de agua viva!
+`,
+  },
+  333: {
+    id: 333,
+    titulo: "Tentado no cedas",
+    artista: "",
+    duracion: "",
+    fecha: "Miércoles 24",
+    fechaSlug: "miercoles-24",
+    letra: `Tentado, no cedas; ceder es pecar,
+Más fácil seráte luchando triunfar;
+!Valor! pues, gustoso domina tu mal
+Jesús librar puede de asalto mortal.
+
+Coro:
+A Jesús, pues acude;
+En sus brazos tu alma
+Hallará dulce calma,
+El te hará vencedor.
+
+Evita el pecado, procura agradar
+A Dios, a quien debes por siempre ensalzar,
+No manche tus labios impúdica voz;
+Tu corazón guarda de codicia atroz.
+
+Amante, benigno y enérgico sé,
+En Cristo ten siempre indómita fe;
+Veraz sea tu dicho, de Dios es tu ser;
+Corona te espera y vas a vencer.`,
+  },
   86: {
     id: 86,
     titulo: "El Poder de la Cruz",
@@ -891,8 +987,8 @@ Cristo el Salvador.`,
     id: 112,
     titulo: "Si paz cual un rio",
     artista: "",
-    fecha: "",
-    fechaSlug: "miercoles-27",
+    fecha: "Miércoles 24",
+    fechaSlug: "miercoles-24",
     letra: `Si paz cual un río es aquí mi porción,
 Si es como las olas del mar,
 Cualquiera mi suerte, es ya mi canción
