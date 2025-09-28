@@ -12,6 +12,162 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
+  247: {
+    id: 247,
+    titulo: "Cristo ya ha resucitado",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 28",
+    fechaSlug: "domingo-28",
+    letra: `Cristo ya ha resucitado, ¡Aleluya!
+De la muerte ha triunfado, ¡Aleluya!
+El poder de su virtud, ¡Aleluya!
+Cautivó la esclavitud, ¡Aleluya!
+
+El que al polvo se humilló, ¡Aleluya!
+Vencedor se levantó, ¡Aleluya!
+Y cantamos en verdad, !Aleluya!
+Su gloriosa majestad.!Aleluya!
+
+El que a muerte se entregó, ¡Aleluya!
+El que así nos redimió, ¡Aleluya!
+Hoy en gloria celestial, !Aleluya!
+Reina en vida triunfal, ¡Aleluya!
+
+Cristo nuestro Salvador, ¡Aleluya!
+De la muerte vencedor, ¡Aleluya!
+Pronto vamos sin cesar, ¡Aleluya!
+Tus loores a cantar, ¡Aleluya!`,
+  },
+  263: {
+    id: 263,
+    titulo: "Levantado fue Jesús",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 28",
+    fechaSlug: "domingo-28",
+    letra: `Levantado fue Jesús
+En la vergonzosa cruz,
+Para darme la salud;
+¡Aleluya! ¡Gloria a Cristo!
+
+Soy yo indigno pecador,
+El es justo Salvador;
+Dio su vida en mi favor;
+¡Aleluya! ¡Gloria a Cristo!
+
+Por mis culpas yo me vi
+En peligro de morir;
+Mas Jesús murió por mí;
+¡Aleluya! ¡Gloria a Cristo!
+
+El rescate a Dios pagó,
+“Consumado es”, declaró;
+Dios por eso me aceptó;
+¡Aleluya! ¡Gloria a Cristo!`,
+  },
+  133: {
+    id: 133,
+    titulo: "Alma bendice al Señor",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 28",
+    fechaSlug: "domingo-28",
+    letra: `Alma, bendice al Señor
+Rey potente de gloria
+De sus mercedes
+Esté viva en ti la memoria
+¡Oh, despertad!
+Arpa y salterio entonad
+Himnos de honor y victoria.
+
+Alma, bendice al Señor
+Que los orbes gobierna
+Y te conduce paciente
+Con mano paterna
+Te perdonó,
+De todo mal te libró
+Porque su gracia es eterna.
+
+Alma, bendice al Señor
+De tu vida la fuente
+Que te creó
+Y en salud te sostiene clemente
+Tu Defensor
+En todo trance y dolor
+Su diestra es omnipotente.
+
+Alma, bendice al Señor
+Por Su amor infinito
+Con todo el pueblo de Dios
+Su alabanza repito
+Dios, mi salud,
+De todo bien plenitud
+Seas por siempre bendito.
+`,
+  },
+  201: {
+    id: 201,
+    titulo: "Oh que amigo nos es Cristo",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 28",
+    fechaSlug: "domingo-28",
+    letra: `¡Oh! ¡qué amigo nos es Cristo!,
+Nuestras culpas El llevó,
+Y nos manda que llevemos
+Todo a Dios en oración.
+somos tristes agobiados
+Y cargados de aflicción,
+Esto es porque no le llevamos
+Todo a Dios en oración.
+
+Si estás débil y oprimido
+De cuidados y temor,
+A Jesús, refugio eterno
+Dile todo en oración.
+¿Te desprecian tus amigos?
+Cuéntale en oración,
+En sus brazos de amor tierno,
+Paz tendrá tu corazón.
+
+Jesucristo es nuestro amigo,
+De esto pruebas nos mostró,
+Pues para llevar consigo
+Al culpable se humanó.
+El castigo de su pueblo
+En su muerte El sufrió,
+Cristo es el amigo eterno,
+Sólo en El confío yo.`,
+  },
+  457: {
+    id: 457,
+    titulo: "Cristo tan Solo",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 28",
+    fechaSlug: "domingo-28",
+    letra: `Cristo tan sólo pudo amarme,
+Nada podrá de El separarme,
+Pues con su sangre me redimió:
+Ahora soy de El.
+
+Coro:
+Ahora soy de Cristo,
+Mío también es El,
+Puedo gozar de su amistad
+Por la eternidad.
+
+Antes vivía en el pecado,
+Mi corazón de Dios alejado;
+Mas mi vergüenza El me quitó:
+Ya pertenezco a él.
+
+Mi ser rebosa de pleno gozo,
+Dios me liberta, me da reposo;
+Pues con su sangre me redimió:
+Ahora soy de El.`,
+  },
   2: {
     id: 2,
     titulo: "A Jesucristo ven",

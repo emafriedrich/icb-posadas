@@ -11,8 +11,8 @@ import { Badge } from "@/components/ui/badge";
 import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react";
 
 const cancionesPorFecha = [
+  /*  fecha: "miercoles",
   {
-      fecha: "miercoles",
     fechaCompleta: "Miercoles 24 de septiembre de 2025",
       slug: 'miercoles-24',
       tipo: "Reunión de Oración y Estudio Bíblico",
@@ -42,45 +42,45 @@ const cancionesPorFecha = [
           duracion: "",
         },
       ],
-    },
-  /* {
+    }, */
+    {
     fecha: "domingo",
-    fechaCompleta: "Domingo 21",
+    fechaCompleta: "Domingo 28",
     tipo: "Reunión de Predicación y Santa Cena",
-    slug: "domingo-21",
+    slug: "domingo-28",
     canciones: [
       {
-        id: 14,
-        titulo: "Entra en la presencia del Señor",
+        id: 457,
+        titulo: "Cristo tan solo pudo amarme",
         artista: "",
         duracion: "",
       },
       {
-        id: 12,
-        titulo: "Tu estás sentado, sobre tu trono",
+        id: 201,
+        titulo: "Oh que amigo no es Cristo",
         artista: "",
         duracion: "",
       },
       {
-        id: 31,
-        titulo: "Mirarte solo a tí Señor",
+        id: 133,
+        titulo: "Alma bendice",
         artista: "",
         duracion: "",
       },
       {
-        id: 67,
-        titulo: "Glorioso intercambio",
+        id: 263,
+        titulo: "Levantado fue Jesús",
         artista: "",
         duracion: "",
       },
       {
-        id: 86,
-        titulo: "El poder de la cruz",
+        id: 247,
+        titulo: "Cristo ya ha resucitado",
         artista: "",
         duracion: "",
       },
     ],
-  }, */
+  }, 
 ];
 
 export default function CancionesPage() {
