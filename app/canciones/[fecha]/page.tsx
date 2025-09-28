@@ -8,9 +8,9 @@ import Image from "next/image";
 
 // Datos de ejemplo - en una aplicación real esto vendría de una base de datos
 export const cancionesPorFecha = {
-  "domingo-21": {
-    fecha: "Domingo 21",
-    fechaCompleta: "Domingo 21 de septiembre de 2025",
+  "domingo-28": {
+    fecha: "Domingo 28",
+    fechaCompleta: "Domingo 28 de septiembre de 2025",
     tipo: "Servicio Dominical",
     canciones: [
       {
