@@ -12,6 +12,105 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
+  500: {
+    id: 500,
+    titulo: "Soberano Dios",
+    artista: "",
+    duracion: "",
+    fecha: "Miercoles 01",
+    fechaSlug: "miercoles-01",
+    letra: `Fortaleza hay en pruebas,
+hay belleza en el dolor.
+Me sostienes en mis fallas,
+en Tus manos de amor.
+
+Y Tu obras en silencio,
+para santificarme.
+Tu permites mis dolores,
+para confirmar mi fe.
+
+Tus planes son perfectos,
+Tu no me olvidarás.
+Estás conmigo en la tempestad.
+
+¡Fiel para siempre! ¡Perfecto en amor!
+Eres, Soberano Dios.
+
+Tu eres Sabiduría,
+nadie puede comprender.
+Y Tu reinas sobre el cielo,
+y Tu gracia eterna es.
+
+Tu levantas al caído,
+no se mide Tu bondad.
+Me rodeas y sostienes,
+Tus promesas nunca fallarán.
+
+Tus planes son perfectos,
+Tu no me olvidarás.
+Estás conmigo en la tempestad.
+
+¡Fiel para siempre! ¡Perfecto en amor!
+Eres, Soberano Dios.
+
+Cuando Satanás quiere herirnos,
+Tu buscas nuestro bien, Tu buscas nuestro bien,
+¡Para Tu gloria! 
+
+Ahora en el camino más oscuro,
+Procuras nuestro bien, Procuras nuestro Bien,
+¡Para Tu gloria!
+
+Cuando Satanás quiere herirnos,
+Tu buscas nuestro bien, Tu buscas nuestro bien,
+¡Para Tu gloria!
+
+Tus planes son perfectos,
+Tu no me olvidarás.
+Estás conmigo en la tempestad.
+
+¡Fiel para siempre! ¡Perfecto en amor!
+Eres, Soberano Dios.`,
+  },
+  94: {
+    id: 94,
+    titulo: "Él me sostendrá",
+    artista: "",
+    duracion: "",
+    fecha: "Miercoles 01",
+    fechaSlug: "miercoles-01",
+    letra: `Si mi fe ha de caer,
+Él me sostendrá;
+En la tentación yo se,
+Él me sostendrá.
+No podría estar de pie
+En la oscuridad,
+Pues mi amor muy frágil es,
+Él me sostendrá.
+
+Él me sostendrá,
+Él me sostendrá;
+Pues me ama el Salvador,
+Él me sostendrá.
+
+Él se goza en quien salvó,
+Él me sostendrá;
+Ante Él precioso soy,
+Él me sostendrá.
+Sus promesas fieles son,
+Mi alma guardará;
+Alto precio Él pagó, Él me sostendrá.
+
+Él sufrió y por mí murió:
+Él me sostendrá;
+La justicia Él cumplió,
+Él me sostendrá.
+Vida eterna tengo en Él,
+Él me sostendrá;
+Hasta que le pueda ver;
+¡Él regresará!
+`,
+  },
   247: {
     id: 247,
     titulo: "Cristo ya ha resucitado",
@@ -640,8 +739,8 @@ Jesús me levantó.`,
     id: 123,
     titulo: "Señor, mi redentor y Roca",
     artista: "",
-    fecha: "Domingo 14",
-    fechaSlug: "domingo-14",
+    fecha: "Octubre 01",
+    fechaSlug: "miercoles-01",
     letra: `Señor, mi Redentor y Roca,
 Gran Tesoro de mi corazón;
 Mi Dios, como Tú no hay otro,
@@ -981,7 +1080,7 @@ Te alabo, te alabo`,
     titulo: "En ti esperamos",
     artista: "",
     fecha: "",
-    fechaSlug: "miercoles-27",
+    fechaSlug: "miercoles-01",
     letra: `Oh, líbranos del mal, Señor
 El mundo quebrantado está
 Aunque haya guerras y dolor
