@@ -11,7 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react";
 
 const cancionesPorFecha = [
-  {
+ /*  {
     fecha: "miercoles",
     fechaCompleta: "Miercoles 01 de octubre de 2025",
       slug: 'miercoles-01',
@@ -42,12 +42,12 @@ const cancionesPorFecha = [
           duracion: "",
         },
       ],
-    },
-  /*   {
-    fecha: "domingo",
-    fechaCompleta: "Domingo 28",
+    }, */
+    {
+    fecha: "Domingo",
+    fechaCompleta: "Domingo 05",
     tipo: "Reunión de Predicación y Santa Cena",
-    slug: "domingo-28",
+    slug: "domingo-05",
     canciones: [
       {
         id: 457,
@@ -80,7 +80,7 @@ const cancionesPorFecha = [
         duracion: "",
       },
     ],
-  },  */
+  },  
 ];
 
 export default function CancionesPage() {

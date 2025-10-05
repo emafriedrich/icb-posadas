@@ -18,7 +18,7 @@ const cancionesData = {
     artista: "",
     duracion: "",
     fecha: "Miercoles 01",
-    fechaSlug: "miercoles-01",
+    fechaSlug: "miercoles-06",
     letra: `Fortaleza hay en pruebas,
 hay belleza en el dolor.
 Me sostienes en mis fallas,
@@ -116,8 +116,8 @@ Hasta que le pueda ver;
     titulo: "Cristo ya ha resucitado",
     artista: "",
     duracion: "",
-    fecha: "Domingo 28",
-    fechaSlug: "domingo-28",
+    fecha: "Domingo 05",
+    fechaSlug: "domingo-05",
     letra: `Cristo ya ha resucitado, ¡Aleluya!
 De la muerte ha triunfado, ¡Aleluya!
 El poder de su virtud, ¡Aleluya!
@@ -143,8 +143,8 @@ Tus loores a cantar, ¡Aleluya!`,
     titulo: "Levantado fue Jesús",
     artista: "",
     duracion: "",
-    fecha: "Domingo 28",
-    fechaSlug: "domingo-28",
+    fecha: "Domingo 05",
+    fechaSlug: "domingo-05",
     letra: `Levantado fue Jesús
 En la vergonzosa cruz,
 Para darme la salud;
@@ -170,8 +170,8 @@ Dios por eso me aceptó;
     titulo: "Alma bendice al Señor",
     artista: "",
     duracion: "",
-    fecha: "Domingo 28",
-    fechaSlug: "domingo-28",
+    fecha: "Domingo 05",
+    fechaSlug: "domingo-05",
     letra: `Alma, bendice al Señor
 Rey potente de gloria
 De sus mercedes
@@ -210,8 +210,8 @@ Seas por siempre bendito.
     titulo: "Oh que amigo nos es Cristo",
     artista: "",
     duracion: "",
-    fecha: "Domingo 28",
-    fechaSlug: "domingo-28",
+    fecha: "Domingo 05",
+    fechaSlug: "domingo-05",
     letra: `¡Oh! ¡qué amigo nos es Cristo!,
 Nuestras culpas El llevó,
 Y nos manda que llevemos
@@ -244,8 +244,8 @@ Sólo en El confío yo.`,
     titulo: "Cristo tan Solo",
     artista: "",
     duracion: "",
-    fecha: "Domingo 28",
-    fechaSlug: "domingo-28",
+    fecha: "Domingo 05",
+    fechaSlug: "domingo-05",
     letra: `Cristo tan sólo pudo amarme,
 Nada podrá de El separarme,
 Pues con su sangre me redimió:
