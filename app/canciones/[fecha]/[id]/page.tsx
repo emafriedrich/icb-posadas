@@ -12,6 +12,86 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
+  70: {
+    id: 70,
+    titulo: "Gracia y paz",
+    artista: "",
+    duracion: "",
+    fecha: "Miercoles 08",
+    fechaSlug: "miercoles-08",
+    letra: `Gracia y paz ¿Cómo puede ser?
+Para el transgresor
+Y al ladrón sin valor
+Dices que nuestro juicio es morir
+Por la eternidad
+En dolor y sin Ti
+Oh qué gran misterio es para mí
+Qué gran misterio es para mí
+Que tu gracia vino a mí
+
+Gracia y paz ¿Cómo puede ser?
+Que el perfecto Rey
+Con su sangre pagó
+¡Qué expiación tan grandiosa Tú das!
+Que al más vil pecador
+Puede limpiar y librar
+Oh qué gran misterio es para mí
+Qué gran misterio es para mí
+Que tu gracia vino a mí
+
+Gracia y paz ¿Cómo puede ser?
+Canción de gratitud
+Cantaré sin parar
+Apartado y amado por Dios
+Satisfecho estoy
+En Jesús, mi Señor
+Oh qué gran misterio es para mí
+Qué gran misterio es para mí
+Que tu gracia vino a mí
+
+Oh, maravilloso amor por mí
+Maravilloso amor por mí
+Que tu gracia vino a mí`,
+  },
+  114: {
+    id: 114,
+    titulo: "Por fe",
+    artista: "",
+    duracion: "",
+    fecha: "Miercoles 08",
+    fechaSlug: "miercoles-08",
+    letra: `Por fe veremos a nuestro Dios
+En el plan que creó en la eternidad,
+En la vida de los fieles que llamó
+A vivir por fe y no por ver.
+
+Por fe el justo vivirá;
+Por la fe caminamos junto a Él
+Como viendo al invisible, Protector;
+Vivir por fe y no por ver.
+
+Sus promesas como roca son;
+Sus promesas cumple nuestro Dios.
+Nos movemos solo por la fe en Él.
+Vivir por fe y no por ver.
+
+Por fe profetas hablaron fiel;
+Por la fe proclamaron la verdad
+Del Mesías prometido en Edén,
+El que la muerte venció en la cruz.
+Por fe la iglesia se moverá
+Con poder del Espíritu de Dios;
+Y las huestes del infierno no podrán
+Dañar la obra de nuestro Dios.
+
+Sus promesas…
+
+Por fe los montes se moverán,
+Si la fe permanece en Jesús;
+El poder del evangelio librará
+A todo aquel que confía en Él.
+`,
+  },
   500: {
     id: 500,
     titulo: "Soberano Dios",
@@ -1022,8 +1102,8 @@ En la cruz mi pecado clavó.`,
     id: 87,
     titulo: "Gracias, Cristo",
     artista: "",
-    fecha: "Miércoles 27",
-    fechaSlug: "miercoles-27",
+    fecha: "Miércoles 08",
+    fechaSlug: "miercoles-08",
     letra: `El misterio de la cruz 
 no puedo comprender
 La angustia que llegó a sufrir
@@ -1047,8 +1127,8 @@ Tu misericordia es sin igual`,
     id: 136,
     titulo: "Todo por Tu gloria",
     artista: "",
-    fecha: "",
-    fechaSlug: "miercoles-27",
+    fecha: "Miércoles 08",
+    fechaSlug: "miercoles-08",
     letra: `Cuando estaba muerto en vida
 Extraviado y sin salida
 Me buscaste

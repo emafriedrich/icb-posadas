@@ -11,71 +11,71 @@ import { Badge } from "@/components/ui/badge";
 import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react";
 
 const cancionesPorFecha = [
- /*  {
+  {
     fecha: "miercoles",
-    fechaCompleta: "Miercoles 01 de octubre de 2025",
-      slug: 'miercoles-01',
+    fechaCompleta: "Miercoles 8 de octubre de 2025",
+      slug: 'miercoles-08',
       tipo: "Reunión de Oración y Estudio Bíblico",
       canciones: [
         {
-          id: 94,
-          titulo: "El me sostendrá",
+          id: 114,
+          titulo: "Por fe",
           artista: "",
           duracion: "",
         },
         {
-          id: 123,
-          titulo: "Señor, Mi Redentor y Roca",
+          id: 70,
+          titulo: "Gracia y paz",
           artista: "",
           duracion: "",
         },
         {
-          id: 139,
-          titulo: "Soberano Dios",
+          id: 136,
+          titulo: "Todo por tu gloria",
           artista: "",
           duracion: "",
         },
         {
-          id: 333,
-          titulo: "En ti esperamos",
+          id: 87,
+          titulo: "Gracias Cristo",
           artista: "",
           duracion: "",
         },
       ],
-    }, */
+    },
     {
     fecha: "Domingo",
-    fechaCompleta: "Domingo 05",
+    fechaCompleta: "Domingo 12",
     tipo: "Reunión de Predicación y Santa Cena",
-    slug: "domingo-05",
+    slug: "domingo-12",
     canciones: [
       {
-        id: 457,
-        titulo: "Cristo tan solo pudo amarme",
+        id: 78,
+        titulo: "Venid glorificad a Dios",
         artista: "",
         duracion: "",
       },
       {
-        id: 201,
-        titulo: "Oh que amigo no es Cristo",
+        id: 210,
+        titulo: "Que lo sabe todo el Padre",
         artista: "",
         duracion: "",
       },
       {
         id: 133,
-        titulo: "Alma bendice",
+        titulo: "Señor, mi Redentor y Roca",
         artista: "",
         duracion: "",
       },
       {
-        id: 263,
-        titulo: "Levantado fue Jesús",
+        id: 90,
+        titulo: "Sublime gracia",
         artista: "",
         duracion: "",
       },
       {
-        id: 247,
-        titulo: "Cristo ya ha resucitado",
+        id: 110,
+        titulo: "Hubo quien por mi culpa",
         artista: "",
         duracion: "",
       },
