@@ -12,6 +12,74 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
+  78: {
+    id: 78,
+    titulo: "Venid glorificad a Dios",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 12",
+    fechaSlug: "domingo-12",
+    letra: `Venid glorificad a Dios, 
+el Padre del Señor
+En Cristo Él nos derramó 
+Su eterna bendición
+Sin manchas puros en Su luz,
+ nos destinó a ser
+Sus hijos adoptados por 
+la sangre de Jesús
+
+Te daremos la gloria
+Por Tu gracia, bondad y amor
+Te daremos la gloria
+¡Eres el Salvador!
+
+Venid glorificad a Dios 
+que en Cristo gracia da
+Lavadas nuestras culpas son 
+tenemos redención
+En Él Dios ya nos reveló 
+Su eterna voluntad
+Que sea Cristo el Señor
+ Su plan se cumplirá
+
+Venid glorificad a Dios, 
+creyentes del Señor
+El sello de Su Espíritu
+ por fe tenemos hoy
+Él garantiza nuestra fe 
+hasta el día final
+Nos uniremos a alabar 
+a nuestro trino Dios
+`,
+  },
+  90: {
+    id: 90,
+    titulo: "Sublime Gracia",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 12",
+    fechaSlug: "domingo-12",
+    letra: `Sublime Gracia del Señor
+Que a un vil pecador salvó;
+Fui ciego mas hoy veo yo,
+Perdido y Él me halló
+
+Su Gracia me enseñó a temer
+Mis dudas ahuyentó;
+Oh cuan precioso fue a mi ser
+Cuando Él me transformó
+
+En los peligros o aflicción
+Que yo he tenido aquí,
+Su gracia siempre me libró
+Y me guiará feliz
+
+Y cuando en Sion por siglos mil
+Brillando este cual sol,
+Yo cantare por siempre allí
+Su amor que me salvo.
+`,
+  },
   70: {
     id: 70,
     titulo: "Gracia y paz",
@@ -250,8 +318,8 @@ Dios por eso me aceptó;
     titulo: "Alma bendice al Señor",
     artista: "",
     duracion: "",
-    fecha: "Domingo 05",
-    fechaSlug: "domingo-05",
+    fecha: "Domingo 12",
+    fechaSlug: "domingo-12",
     letra: `Alma, bendice al Señor
 Rey potente de gloria
 De sus mercedes
@@ -1076,8 +1144,8 @@ Vida juntamente con Cristo me dio.
     id: 110,
     titulo: "Hubo quien por mí culpa",
     artista: "",
-    fecha: "Miércoles 27",
-    fechaSlug: "miercoles-27",
+    fecha: "Domingo 12",
+    fechaSlug: "domingo-12",
     letra: `Hubo quien por mis culpas muriera en la cruz,
 Aunque indigno y vil como soy.
 Soy feliz, pues su sangre vertió me Jesús,
@@ -1280,8 +1348,8 @@ En Su Poder me sostendré //`,
     id: 210,
     titulo: "Que lo sabe todo el Padre",
     artista: "",
-    fecha: "",
-    fechaSlug: "miercoles-27",
+    fecha: "Domingo 12",
+    fechaSlug: "domingo-12",
     letra: `Que lo sabe todo el Padre,
 Es mi certitud,
 Y que en gracia él por mí vela,
