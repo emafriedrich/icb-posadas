@@ -12,38 +12,38 @@ import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react";
 
 const cancionesPorFecha = [
   {
-    fecha: "miercoles",
-    fechaCompleta: "Miercoles 8 de octubre de 2025",
-      slug: 'miercoles-08',
-      tipo: "Reunión de Oración y Estudio Bíblico",
-      canciones: [
-        {
-          id: 114,
-          titulo: "Por fe",
-          artista: "",
-          duracion: "",
-        },
-        {
-          id: 70,
-          titulo: "Gracia y paz",
-          artista: "",
-          duracion: "",
-        },
-        {
-          id: 136,
-          titulo: "Todo por tu gloria",
-          artista: "",
-          duracion: "",
-        },
-        {
-          id: 87,
-          titulo: "Gracias Cristo",
-          artista: "",
-          duracion: "",
-        },
-      ],
-    },
-    {
+    fecha: "Miercoles",
+    fechaCompleta: "Miercoles 15 de octubre de 2025",
+    slug: "miercoles-15",
+    tipo: "Reunión de Oración y Estudio Bíblico",
+    canciones: [
+      {
+        id: 69,
+        titulo: "Contempla a Dios",
+        artista: "",
+        duracion: "",
+      },
+      {
+        id: 79,
+        titulo: "Inmerecedor",
+        artista: "",
+        duracion: "",
+      },
+      {
+        id: 103,
+        titulo: "No valgo por mi posesión",
+        artista: "",
+        duracion: "",
+      },
+      {
+        id: 501,
+        titulo: "Cristo el Rey reina en mi",
+        artista: "",
+        duracion: "",
+      },
+    ],
+  },
+  {
     fecha: "Domingo",
     fechaCompleta: "Domingo 12",
     tipo: "Reunión de Predicación y Santa Cena",
@@ -80,7 +80,7 @@ const cancionesPorFecha = [
         duracion: "",
       },
     ],
-  },  
+  },
 ];
 
 export default function CancionesPage() {

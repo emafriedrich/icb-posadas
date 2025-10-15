@@ -12,6 +12,84 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
+  501: {
+    id: 501,
+    titulo: "Cristo el Rey reina en mi",
+    artista: "",
+    duracion: "",
+    fecha: "Miércoles 15",
+    fechaSlug: "miercoles-15",
+    letra: `Jesús mi Creador, mi Rey, mi Dios, mi Salvador
+Mi vida mía ya no es, tu sangre me compró
+Mi alianza de tu trono es, tu reino es mi hogar
+Libre y feliz me rindo a tu Suprema autoridad
+
+Jesús tu voz escucharé, eres mi Buen Pastor
+En Tu Palabra buscaré concejo y dirección
+Mi fiel ayuda y protección, en prueba y tentación
+Sabiduría encontraré, andando en tu temor. 
+
+CORO
+Cristo reina en mi y seré quien me has llamado a ser
+Y que mi vivir dé tu nombre a conocer.
+
+Jesús, glorioso Hijo de Dios, Tesoro sin igual
+Ningún placer o ambición, se puede comparar
+Cuan infinito es tu valor, enséñame Señor
+Y viviré para un mejor y eterno galardón
+
+Jesús, del mundo eres la Luz, testigo tuyo soy
+Dell Evangelio de tu cruz, seré yo portavoz
+"¡Tu Reino venga!" es mi canción, Tu causa mi misión
+Que sea tu gloria mi pasión consagrame Señor`,
+  },
+  103: {
+    id: 103,
+    titulo: "No valgo por mi posesión",
+    artista: "",
+    duracion: "",
+    fecha: "Miércoles 15",
+    fechaSlug: "miercoles-15",
+    letra: `No valgo por mi posesión,
+Ni porque fuerte sea yo;
+Sino el precio de Su amor,
+En la cruz.
+
+No valgo por ser muy capaz,
+Ni por perder, ni por ganar;
+Sino en la sangre que vertió,
+En la cruz.
+
+Coro: Redentor, Tú eres mi gozo,
+Gran tesoro, fuente de mi ser;
+Confiaré en Él, no hay otro,
+Mi alma satisfecha está en Él.
+
+La fama y juventud se irán
+Como la flor que hoy no está;
+Mas vida eterna Tú nos das,
+En la cruz.
+
+Yo no me jactaré en saber,
+Ni en opulencia, ni poder;
+Mas yo me jactaré en Jesús
+Y en la cruz.
+
+Coro: Redentor, Tú eres mi gozo,
+Gran tesoro, fuente de mi ser;
+Confiaré en Él, no hay otro,
+Mi alma satisfecha está en Él.
+
+Esta verdead confieso hoy:
+De dignidad indigno soy.
+Tengo valor pues me compró,
+En la cruz.
+
+Coro: Redentor, Tú eres mi gozo,
+Gran tesoro, fuente de mi ser;
+Confiaré en Él, no hay otro,
+Mi alma satisfecha está en Él.`,
+  },
   78: {
     id: 78,
     titulo: "Venid glorificad a Dios",
@@ -1536,11 +1614,11 @@ En la gloria con El he de estar.
   },
   79: {
     id: 79,
-    titulo: "79 - Inmerecedor",
+    titulo: "Inmerecedor",
     artista: "",
     duracion: "",
-    fecha: "Miércoles 3",
-    fechaSlug: "miercoles-3",
+    fecha: "Miércoles 15",
+    fechaSlug: "miercoles-15",
     letra: `Inmerecedor, 
 soy de tu gracia y tu perdón
 De tu perfecto amor, Indigno soy.
@@ -1561,7 +1639,24 @@ Yo quiero agradecerte, Amarte siempre
 Con gran pasión como lo has hecho tú.
 Quiero corresponderte,
 Ser fiel por siempre
-Con decisión y no fallar jamás`,
+Con decisión y no fallar jamás
+
+
+Revestido soy, 
+de la justicia de Jesús 
+El me sustituyo, ahora suyo soy.
+Incomparable es él 
+perfecta su vida y obra es,
+Todo lo consumo, 
+murió y vivió
+Fue glorificado 
+sentado a la diestra de Dios
+ Cristo bendito 
+lo hiciste todo por amor.
+Ahora soy deudor, 
+que por tu gracia salvo soy, 
+rindo a ti Señor mi vida, tuyo soy.
+`,
   },
   82: {
     id: 82,
@@ -1701,8 +1796,8 @@ Le hemos de celebrar siempre jamás.`,
     titulo: "Contempla a Dios",
     artista: "",
     duracion: "4:32",
-    fecha: "Domingo 07",
-    fechaSlug: "domingo-07",
+    fecha: "Miércoles 15",
+    fechaSlug: "miercoles-15",
     letra: `¿Quién formó las olas al hablar?
 ¿Quién contó la arena en el mar?
 Reyes, pueblos, tiemblan a su voz

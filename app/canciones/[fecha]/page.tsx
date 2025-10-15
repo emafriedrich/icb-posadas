@@ -8,7 +8,7 @@ import Image from "next/image";
 
 // Datos de ejemplo - en una aplicación real esto vendría de una base de datos
 export const cancionesPorFecha = {
-  "domingo-12": {
+/*   "domingo-12": {
     fecha: "Domingo 12",
     fechaCompleta: "Domingo 12 de octubre de 2025",
     tipo: "Servicio Dominical",
@@ -44,33 +44,33 @@ export const cancionesPorFecha = {
         duracion: "",
       },
     ],
-  },
-  "miercoles-08": {
-    fecha: "Miercoles 08",
-    fechaCompleta: "Miercoles 08 de octubre de 2025",
+  }, */
+  "miercoles-15": {
+    fecha: "Miercoles 15",
+    fechaCompleta: "Miercoles 15 de octubre de 2025",
     tipo: "Reunión de Oración y Estudio Bíblico",
     canciones: [
       {
-        id: 114,
-        titulo: "Por fe",
+        id: 69,
+        titulo: "Contempla a Dios",
         artista: "",
         duracion: "",
       },
       {
-        id: 70,
-        titulo: "Gracia y paz",
+        id: 79,
+        titulo: "Inmerecedor",
         artista: "",
         duracion: "",
       },
       {
-        id: 136,
-        titulo: "Todo por tu gloria",
+        id: 103,
+        titulo: "No valgo por mi posesión",
         artista: "",
         duracion: "",
       },
       {
-        id: 87,
-        titulo: "Gracias Cristo",
+        id: 501,
+        titulo: "Cristo el Rey reina en mi",
         artista: "",
         duracion: "",
       },
