@@ -12,13 +12,115 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
+  127: {
+    id: 127,
+    titulo: "Si esto no fuese amor",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 19",
+    fechaSlug: "domingo-19",
+    letra: `Dejó su trono de gloria,
+Aun sabiendo su fin,
+El sabía que en el monte calvario,
+El daría su vida por mí .
+
+CORO Si esto no fuese amor,
+No habría agua en el mar,
+No habría estrellas ni sol,
+Ni aves podrían volar.
+Si esto no fuese amor,
+Ni aún el cielo es real,
+Sería vano el vivir,
+Si esto no fuese amor.
+
+-2- Aun en su inmortal suplicio,
+Mostró su gran compasión,
+Y al ladrón que clamó arrepentido,
+Al paraíso con el lo llevó
+`,
+  },
+  141: {
+    id: 141,
+    titulo: "Todo lo que creó el Rey",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 19",
+    fechaSlug: "domingo-19",
+    letra: `Todo lo que creó el Rey
+Alce su voz y cante a Él
+¡Oh alaben! ¡Aleluya!
+Tú, majestuoso y fuerte sol
+Tú, luna bella en esplendor
+¡Oh alaben! ¡Oh alaben!
+¡Aleluya! ¡Aleluya! ¡Aleluya!
+
+VERSO 2
+Todos bendigan al Creador
+Rindan humilde adoración
+¡Oh alaben! ¡Aleluya!
+Al Padre, al Hijo Redentor
+Al Santo Espíritu de Dios
+¡Oh alaben! ¡Oh alaben!
+¡Aleluya! ¡Aleluya! ¡Aleluya!
+
+VERSO 3
+Los que Su sangre redimió
+Vengan y gócense en Su amor
+¡Oh alaben! ¡Aleluya!
+Todo pecado Él ya venció
+Pongan sus cargas en Él hoy
+¡Oh alaben! ¡Oh alaben!
+¡Aleluya! ¡Aleluya! ¡Aleluya!
+
+VERSO 4
+Él con poder regresará
+Cielos y tierra cantarán
+¡Oh alaben! ¡Aleluya!
+¿Quiénes caerán ante Sus pies?
+Todo lo que creó el Rey
+¡Oh alaben! ¡Oh alaben!
+¡Aleluya! ¡Aleluya!
+`,
+  },
+  137: {
+    id: 137,
+    titulo: "Dios Poderoso",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 19",
+    fechaSlug: "domingo-19",
+    letra: `Quién sino el Señor Las estrellas creó
+Y su luz limitó Quién sino el Señor
+Sol y luna formó Movimiento les dio
+Quién sino el Señor Hace la lluvia venir
+Truenos rugir Tus obras grandes son
+
+Coro
+Dios Poderoso Tú gobiernas la creación
+Con Tu Palabra Señor Te exaltaremos
+Dios Poderoso De Ti canta la creación
+Llenas todo Tú Señor Te exaltaremos
+Por siempre y siempre oh Dios
+
+Quién sino el Señor Ha soñado en el plan
+Para al hombre salvar Quién sino el Señor
+Limpiará al pecador Con Su sangre y amor
+Quién sino el Señor Puede dar vida y salvar
+Por una cruzTus planes grandes son
+
+Coro
+Todas las cosas Vienen de Ti y por Ti
+Oh gran Yo Soy Todo es Tuyo
+Y para Ti oh Señor Oh gran Yo Soy
+`,
+  },
   501: {
     id: 501,
     titulo: "Cristo el Rey reina en mi",
     artista: "",
     duracion: "",
-    fecha: "Miércoles 15",
-    fechaSlug: "miercoles-15",
+    fecha: "Domingo 19",
+    fechaSlug: "domingo-19",
     letra: `Jesús mi Creador, mi Rey, mi Dios, mi Salvador
 Mi vida mía ya no es, tu sangre me compró
 Mi alianza de tu trono es, tu reino es mi hogar
@@ -693,8 +795,8 @@ Y no mirar atrás.
     titulo: "Tú estas sentado",
     artista: "",
     duracion: "",
-    fecha: "Domingo 21",
-    fechaSlug: "domingo-21",
+    fecha: "Domingo 19",
+    fechaSlug: "domingo-19",
     letra: `Tú estás sentado, sobre tu trono
 siempre reinando, soberano
 Ángeles cantan, coros alaban
