@@ -12,6 +12,74 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
+  416: {
+    id: 416,
+    titulo: "En la cruz",
+    artista: "",
+    duracion: "",
+    fecha: "Miercoles 22",
+    fechaSlug: "miercoles-22",
+    letra: `Me hirió el pecado, fui a Jesús,
+Mostréle mi dolor;
+Perdido, errante, vi su luz,
+Bendíjome en su amor.
+
+Coro:
+En la cruz, en la cruz,
+Do primero vi la luz,
+Y las manchas de mi alma yo lavé,
+Fue allí por la fe, do vi a Jesús
+Y siempre feliz con él seré.
+
+En una cruz, mi Salvador
+Su sangre derramó
+Por este pobre pecador,
+A quien así salvó.
+
+Venció la muerte, ¡qué placer!
+Y el Padre lo exaltó;
+Espero sólo en su poder,
+Morir no temo yo.
+
+Aunque El se fue, conmigo está
+El gran Consolador;
+Por El entrada tengo ya
+Al reino del Señor.
+
+Vivir en Cristo trae la paz,
+Con El habitaré;
+Ya suyo soy, y de hoy en más
+A nadie temeré.`,
+  },
+  601: {
+    id: 601,
+    titulo: "Descanso en ti",
+    artista: "",
+    duracion: "",
+    fecha: "Miercoles 22",
+    fechaSlug: "miercoles-22",
+    letra: `Descanso en ti, mi defensor y escudo,
+Pues en la lid contigo a salvo estoy.
+// En tu poder a combatir acudo,
+Descanso en ti y en tu Nombre voy. //
+
+¡Oh Salvador!, voy en tu santo Nombre,
+Tu Nombre amado y digno de loor;
+// Justicia, Paz y Redención del hombre,
+Rey de la Gloria y Príncipe de amor. //
+
+
+Por fe yo voy, sintiendo mi flaqueza,
+Mas en tu gracia apoyado estoy.
+// En tu poder está mi fortaleza,
+Descanso en ti y en tu Nombre voy. //
+
+Descansaré contigo al fin en gloria,
+Entrando por portales de esplendor.
+// Tuya es la lucha, tuya la victoria,
+Y la alabanza a ti será, Señor. //
+AMÉN.`,
+  },
   127: {
     id: 127,
     titulo: "Si esto no fuese amor",
@@ -1144,8 +1212,8 @@ el Nombre Bendito Eternal.
     id: 138,
     titulo: "Fuente de la vida eterna",
     artista: "",
-    fecha: "Domingo 14",
-    fechaSlug: "domingo-14",
+    fecha: "Miercoles 22",
+    fechaSlug: "miercoles-22",
     letra: `Fuente de la vida eterna
 Y de toda bendición
 Ensalzar tu gracia tierna
@@ -1568,10 +1636,45 @@ Cristo el Salvador.`,
   },
   112: {
     id: 112,
+    titulo: "Si paz cual un rio",
+    artista: "",
+    fecha: "Miércoles 22",
+    fechaSlug: "miercoles-22",
+    letra: `Si paz cual un río es aquí mi porción,
+Si es como las olas del mar,
+Cualquiera mi suerte, es ya mi canción
+“Está bien, con mi alma está bien”.
+
+Coro:
+Está bien…, está bien…,
+Está bien, con mi alma está bien.
+
+Por más que Satán me tentare a mí,
+En esto consuelo tendré:
+Que Cristo, al ver cuan perdido yo fui,
+En la cruz por mi alma murió.
+
+Pecado llevó y las gracias le doy,
+Completo el trabajo está,
+llevólo en la cruz y ya libre estoy,
+¡Oh! mi alma bendice al Señor.
+
+Que viva por Cristo, y sólo por El,
+Y si yo muriese, bien sé,
+Que no temeré, porque Cristo es fiel
+Y mi alma en su paz guardará.
+
+Mas no es la muerte que espero, Señor,
+La tumba mi meta no es,
+Tu pronta venida, en tu tierno amor
+Esperando mi alma hoy está.`,
+  },
+  1122: {
+    id: 112,
     titulo: "Tengo un refugio",
     artista: "",
-    fecha: "Miércoles 24",
-    fechaSlug: "miercoles-24",
+    fecha: "Miércoles 22",
+    fechaSlug: "miercoles-22",
     letra: `Tengo un refugio en tempestad
 Cuando aflicciones tengo
 Cuando me llena mi temor
