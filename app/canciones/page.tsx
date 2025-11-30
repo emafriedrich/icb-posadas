@@ -73,6 +73,12 @@ const cancionesPorFecha = [
         artista: "",
         duracion: "",
       },
+      {
+        id: 66,
+        titulo: "En memoria de ti",
+        artista: "",
+        duracion: "",
+      },
     ],
   },
 ];

@@ -60,34 +60,75 @@ Por los siglos de los siglos reinará
     duracion: "",
     fecha: "Domingo 30",
     fechaSlug: "domingo-30",
-    letra: `Profundo es el amor de Dios
-Tan vasto e infinito
-Que dio su Hijo amado por
-Amor a los perdidos
-Qué gran dolor causó a mi Dios
-Ver padecer a Cristo
-Herido en una cruz murió
-Por quienes han creído
-Ahí, en esa cruz está
-Y Él carga con mis culpas
-Vergüenza siento al escuchar
-Mi voz entre las burlas
-Mi pecado lo llevó
-A ser crucificado
-Mas vida su muerte me dio
-Yo sé que ha terminado
-De nada yo presumiré
-Pues muerte yo merezco
-Mas en la cruz me gloriaré
-La cruz de Jesucristo
-¿Por qué me da su favor?
-No puedo contestarlo
-Mas esto sé de corazón
-Jesús me ha rescatado
-¿Por qué me da su favor?
-No puedo contestarlo
-Mas esto sé de corazón
-Jesús me ha rescatado`,
+    letra: `// Profundo amor del Padre Dios
+Tan amplio inmensurable
+Que dio a su Hijo por hacer
+Tesoro al despreciable
+Cuán grande pérdida y dolor
+Su rostro el Padre aparta
+Más hijos a la gloria trae
+La herida que le marca //
+
+He aquí el Cristo en la cruz
+A hombros mi pecado
+Y escucho con pesar mi voz
+Unirse a cada escarnio.
+
+Mi culpa le retuvo allí
+La obra completando
+Me imparte vida al morir
+Ya todo es consumado.
+
+¿Por qué obtendré su galardón?
+No puedo dar respuesta
+Más esto sé de corazón
+Jesús pagó mi deuda.
+`,
+  },
+  66: {
+    id: 66,
+    titulo: "En memoria de ti",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 30",
+    fechaSlug: "domingo-30",
+    letra: `En memoria de ti yo vengo,
+De tu pan quiero comer
+Y a tu mesa me acerco
+Tu copa quiero yo beber
+
+Cristo he venido a adorarte hoy,
+y tu calvario recordar
+tu amor en la cruz
+y el misterio de tu muerte en mi lugar
+
+Hoy recordamos tu sacrificio Señor
+al celebrar tu santa comunión
+Recordamos tu incomparable amor
+Que nos ha dado tu perdón.
+Recordamos hoy.
+
+Como del pan que es tu cuerpo
+Que molido fue por mi.
+Tomo la copa que es tu sangre que derramada fue por mi.
+Cristo he venido a honrarte hoy
+Tu nuevo pacto celebrar
+Eterna paz con el Padre tengo
+Y del pecado libertad.
+
+Hoy recordamos tu sacrificio Señor
+al celebrar tu santa comunión.
+Recordamos la gracia que nos alcanzó
+y a tu mesa nos sentó.
+Recordamos hoy.
+
+Esperamos por ti Jesús
+Y cuando estemos en gloria
+Cenaremos otra vez.
+Esperamos por ti
+Esperamos por ti
+Esperamos por ti Jesús
+`,
   },
   830: {
     id: 830,
