@@ -12,6 +12,114 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
+  93: {
+    id: 93,
+    titulo: "Considera A Aquel",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 30",
+    fechaSlug: "domingo-30",
+    letra: `Considera a Aquel
+ que siendo igual a Dios se despojó
+Considera a Aquel 
+que semejante al hombre descendió
+Considera a Aquel 
+que se encarnó y debilidad sufrió
+Considera a Aquel 
+que fue tentado en todo y no pecó
+
+Con gran nube de testigos a la meta yo prosigo
+Por el gozo que hay delante, correré
+Soportando el sufrimiento
+Despojándome de todo mi pecado y todo peso, correré
+Con los ojos en Jesús
+
+Considera a Aquel 
+que hasta lo más profundo se humilló
+Considera a Aquel 
+que despreció vergüenza y dolor
+Considera a Aquel
+ que el peso del pecado soportó
+Considera a Aquel 
+que hasta la cruz la muerte padeció
+
+El Cordero y León
+El pecado y la muerte Él venció
+El Mediador, Eterna Paz
+Intercede ante el trono celestial
+El Autor, Consumador
+Mi fe preserva con poder, gracia y amor
+El Principio y Final
+Por los siglos de los siglos reinará
+`,
+  },
+  116: {
+    id: 116,
+    titulo: "Profundo es el amor de Dios",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 30",
+    fechaSlug: "domingo-30",
+    letra: `Profundo es el amor de Dios
+Tan vasto e infinito
+Que dio su Hijo amado por
+Amor a los perdidos
+Qué gran dolor causó a mi Dios
+Ver padecer a Cristo
+Herido en una cruz murió
+Por quienes han creído
+Ahí, en esa cruz está
+Y Él carga con mis culpas
+Vergüenza siento al escuchar
+Mi voz entre las burlas
+Mi pecado lo llevó
+A ser crucificado
+Mas vida su muerte me dio
+Yo sé que ha terminado
+De nada yo presumiré
+Pues muerte yo merezco
+Mas en la cruz me gloriaré
+La cruz de Jesucristo
+¿Por qué me da su favor?
+No puedo contestarlo
+Mas esto sé de corazón
+Jesús me ha rescatado
+¿Por qué me da su favor?
+No puedo contestarlo
+Mas esto sé de corazón
+Jesús me ha rescatado`,
+  },
+  830: {
+    id: 830,
+    titulo: "Cristo Reina en Mi",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 30",
+    fechaSlug: "domingo-30",
+    letra: `Jesús mi Creador, mi Rey, mi Dios, mi Salvador
+Mi vida mía ya no es, tu sangre me compró
+Mi alianza de tu trono es, tu reino es mi hogar
+Libre y feliz me rindo a tu Suprema autoridad
+
+Jesús tu voz escucharé, eres mi Buen Pastor
+En Tu Palabra buscaré concejo y dirección
+Mi fiel ayuda y protección, en prueba y tentación
+Sabiduría encontraré, andando en tu temor. 
+
+CORO
+ _Cristo reina en mi y seré quien me has llamado a ser
+Y que mi vivir dé tu nombre a conocer._ 
+
+Jesús, glorioso Hijo de Dios, Tesoro sin igual
+Ningún placer o ambición, se puede comparar
+Cuan infinito es tu valor, enséñame Señor
+Y viviré para un mejor y eterno galardón
+
+Jesús, del mundo eres la Luz, testigo tuyo soy
+Dell Evangelio de tu cruz, seré yo portavoz
+"¡Tu Reino venga!" es mi canción, Tu causa mi misión
+Que sea tu gloria mi pasión consagrame Señor`,
+  },
   416: {
     id: 416,
     titulo: "En la cruz",
@@ -1212,8 +1320,8 @@ el Nombre Bendito Eternal.
     id: 138,
     titulo: "Fuente de la vida eterna",
     artista: "",
-    fecha: "Miercoles 22",
-    fechaSlug: "miercoles-22",
+    fecha: "Domingo 30",
+    fechaSlug: "domingo-30",
     letra: `Fuente de la vida eterna
 Y de toda bendición
 Ensalzar tu gracia tierna

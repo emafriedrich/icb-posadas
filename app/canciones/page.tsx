@@ -11,7 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react";
 
 const cancionesPorFecha = [
-  {
+  /* {
     fecha: "Miercoles",
     fechaCompleta: "Miercoles 22 de octubre de 2025",
     slug: "miercoles-22",
@@ -42,45 +42,39 @@ const cancionesPorFecha = [
         duracion: "",
       },
     ],
-  },
-/*   {
+  }, */
+  {
     fecha: "Domingo",
-    fechaCompleta: "Domingo 19",
+    fechaCompleta: "Domingo 30",
     tipo: "Reunión de Predicación y Santa Cena",
-    slug: "domingo-19",
+    slug: "domingo-30",
     canciones: [
       {
-        id: 12,
-        titulo: "Tu estas sentado",
+        id: 830,
+        titulo: "Cristo Reina en Mi",
         artista: "",
         duracion: "",
       },
       {
-        id: 141,
-        titulo: "Todo lo que creó el rey",
+        id:138,
+        titulo: "Fuente de la vida eterna",
         artista: "",
         duracion: "",
       },
       {
-        id: 501,
-        titulo: "Cristo el Rey reina en mi",
+        id: 116,
+        titulo: "Profundo es el amor de Dios",
         artista: "",
         duracion: "",
       },
       {
-        id: 137,
-        titulo: "Dios Poderoso",
-        artista: "",
-        duracion: "",
-      },
-      {
-        id: 127,
-        titulo: "Si esto no fuese amor",
+        id: 93,
+        titulo: "Considera A Aquel",
         artista: "",
         duracion: "",
       },
     ],
-  }, */
+  },
 ];
 
 export default function CancionesPage() {
