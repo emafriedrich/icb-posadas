@@ -1007,13 +1007,89 @@ hacer, siempre hacer Señor.
 Y no mirar atrás.
 `,
   },
+  41: {
+    id: 41,
+    titulo: "Señor, mi Dios",
+    artista: "",
+    duracion: "",
+    fecha: "Miercoles 03",
+    fechaSlug: "miercoles-03",
+    letra: `Señor, mi Dios, al contemplar los cielos,
+el firmamento y las estrellas mil;
+al oír tu voz en los potentes truenos
+y ver brillar el sol en su cenit:
+
+// Mi corazón entona la canción,
+¡Cuán grande es El! ¡Cuán grande es El! //
+
+Al recorrer los montes y los valles
+y ver las bellas flores al pasar;
+al escuchar el canto de las aves
+y el murmurar del claro manantial:
+
+
+Cuando recuerdo del amor divino
+que desde el cielo al Salvador envió;
+aquel Jesús que por salvarme vino
+y en una cruz sufrió por mí y murió:
+
+
+Cuando el Señor me llame a su presencia,
+al dulce hogar, al cielo de esplendor,
+le adoraré cantando la grandeza
+de su poder y su infinito amor:
+`,
+  },
+  128: {
+    id: 128,
+    titulo: "En Ti Esperaré",
+    artista: "",
+    duracion: "",
+    fecha: "Miercoles 03",
+    fechaSlug: "miercoles-03",
+    letra: `De lo profundo clamo a ti
+Te llamaré en mi oscuridad
+Inclina oh Dios tu oído a mí
+Señor, te pido, ten piedad
+
+Si Tú contaras mi maldad
+¿Cómo vendría ante tu altar?
+Me asombra ver que en Ti hay perdón
+Por gracia redimido soy.
+
+CORO 1:             En Ti esperaré
+En Ti esperaré
+En tu verdad descansaré
+En Ti esperaré
+Si, yo esperaré
+Hasta saciar todo mi ser.
+
+Pon tu esperanza solo en Dios
+Y en su poder de salvación
+Completamente Él venció
+Cristo el Señor resucitó
+
+Ya el camino Él abrió
+Dios mismo, el precio lo pagó
+Y aquellos que confíen hoy
+En Él tendrán restauración.
+
+CORO 2:           //Yo te esperaré
+Yo te esperaré
+En la prueba y tempestad
+Yo te esperaré
+Si, te esperaré
+Tu amor me saciará.//
+CORO 1:         
+`,
+  },
   12: {
     id: 12,
     titulo: "Tú estas sentado",
     artista: "",
     duracion: "",
-    fecha: "Domingo 19",
-    fechaSlug: "domingo-19",
+    fecha: "Miercoles 03",
+    fechaSlug: "miercoles-03",
     letra: `Tú estás sentado, sobre tu trono
 siempre reinando, soberano
 Ángeles cantan, coros alaban
@@ -2093,11 +2169,11 @@ Oh, hasta llevarme a tu hogar.`,
   },
   33: {
     id: 33,
-    titulo: "33 - Fija tus ojos en Cristo",
+    titulo: "Fija tus ojos en Cristo",
     artista: "",
     duracion: "",
-    fecha: "Domingo 07",
-    fechaSlug: "domingo-07",
+    fecha: "Miercoles 03",
+    fechaSlug: "miercoles-03",
     letra: `Oh alma cansada y turbada,
 Sin luz en la senda andarás,
 Al Salvador mira y vive,
