@@ -11,7 +11,7 @@ export const cancionesPorFecha = {
    "domingo-07": {
     fecha: "Domingo 07",
     fechaCompleta: "Domingo 07 de diciembre de 2025",
-    tipo: "Servicio Dominical",
+    tipo: "Servicio Dominical en ICB",
     canciones: [
       {
         id: 129,
