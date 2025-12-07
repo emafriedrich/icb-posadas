@@ -12,6 +12,71 @@ import { notFound } from "next/navigation";
 // ==========================
 
 const cancionesData = {
+  131: {
+    id: 131,
+    titulo: "Habla, oh Dios",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 07",
+    fechaSlug: "domingo-07",
+    letra: `Habla, oh Dios y yo escucharé
+Quiero recibir Tu palabra fiel
+Tu verdad plántala en mi ser
+Y moldéame a Tu imagen
+Que Tu voz, oh Dios, dé su fruto en mí
+Produciendo amor y el obrar por fe
+Habla, oh Dios y haz Tu obra en mí
+Para Tu honor y Tu gloria
+
+Habla, oh Dios y enséñame
+A obedecer con toda humildad
+Pruébame y escudríñame
+Bajo el resplandor de tu santidad
+Haz crecer mi fe, haz que pueda ver
+Tu glorioso amor y Tu autoridad
+Que Tu voz, voz de gran poder
+Quite de mi ser, la incredulidad
+
+Habla, oh Dios y renuévame
+Para comprender Tus propósitos
+Tu verdad nunca cambiará
+Permanecerá por la eternidad
+Junto a Ti, por fe, yo caminaré
+Tus promesas son mi único sostén
+Habla, oh Dios, edifícanos
+Llena el mundo hoy de Tu gloria
+`,
+  },
+  129: {
+    id: 129,
+    titulo: "Nuestro Dios",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 07",
+    fechaSlug: "domingo-07",
+    letra: `¿Quién aviva el fuego de mil soles con poder, que en los cielos arden?
+Nadie como Él; Nuestro Dios.
+¿Quién gobierna el mundo? ¿Quién levanta y quita al rey?
+¿Vence a sus rivales? Nadie como Él
+Nuestro Dios, nuestro Dios.
+
+Santo, sólo Tú eres santo,
+Sin igual en gloria, Santo Dios.
+
+¿Quién bajó a salvarnos, detractores de Su Ley?
+En Su amor nos llama; nadie como Él,
+Nuestro Dios, nuestro Dios.
+
+Santo, sólo Tú eres santo,
+Sin igual en gloria, incomparable;
+Digno, sólo Tú eres digno,
+Sólo a Ti adoramos, santo Dios.
+
+///Al que en el trono está,
+Él que era y pronto vendrá,
+Y al Cordero inmolado gloria.///
+`,
+  },
   93: {
     id: 93,
     titulo: "Considera A Aquel",
@@ -1327,10 +1392,10 @@ que Tú por ella das.`,
   },
   417: {
     id: 417,
-    titulo: "Grande y Fiel",
+    titulo: "Me levanto",
     artista: "",
-    fecha: "Domingo 14",
-    fechaSlug: "domingo-14",
+    fecha: "Domingo 07",
+    fechaSlug: "domingo-07",
     letra: `Mi Salvador en su bondad
 Al mundo malo descendió;
 Y de hondo abismo de maldad
@@ -1360,8 +1425,8 @@ Jesús me levantó.`,
     id: 123,
     titulo: "Señor, mi redentor y Roca",
     artista: "",
-    fecha: "Octubre 01",
-    fechaSlug: "miercoles-01",
+    fecha: "Domingo 07",
+    fechaSlug: "domingo-07",
     letra: `Señor, mi Redentor y Roca,
 Gran Tesoro de mi corazón;
 Mi Dios, como Tú no hay otro,
@@ -2010,8 +2075,8 @@ En victoria resucitó
     id: 466,
     titulo: "En el monte Calvario",
     artista: "",
-    fecha: "",
-    fechaSlug: "miercoles-27",
+    fecha: "Domingo 07",
+    fechaSlug: "domingo-07",
     letra: `En el monte Calvario estaba una cruz,
 emblema de afrenta y dolor,
 Mas yo amo a Jesús,

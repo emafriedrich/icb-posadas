@@ -11,7 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react";
 
 const cancionesPorFecha = [
-  {
+  /*   {
     fecha: "Miercoles",
     fechaCompleta: "Miercoles 03 de Diciembre de 2025",
     slug: "miercoles-03",
@@ -42,45 +42,45 @@ const cancionesPorFecha = [
         duracion: "",
       },
     ],
-  },
-  /*  {
+  }, */
+  {
     fecha: "Domingo",
-    fechaCompleta: "Domingo 30",
+    fechaCompleta: "Domingo 07",
     tipo: "Reunión de Predicación y Santa Cena",
-    slug: "domingo-30",
+    slug: "domingo-07",
     canciones: [
       {
-        id: 830,
-        titulo: "Cristo Reina en Mi",
+        id: 129,
+        titulo: "Nuestro Dios",
         artista: "",
         duracion: "",
       },
       {
-        id:138,
-        titulo: "Fuente de la vida eterna",
+        id: 123,
+        titulo: "Señor, mi Redentor y Roca",
         artista: "",
         duracion: "",
       },
       {
-        id: 116,
-        titulo: "Profundo es el amor de Dios",
+        id: 131,
+        titulo: "Habla, oh Dios",
         artista: "",
         duracion: "",
       },
       {
-        id: 93,
-        titulo: "Considera A Aquel",
+        id: 417,
+        titulo: "Me Levanto",
         artista: "",
         duracion: "",
       },
       {
-        id: 66,
-        titulo: "En memoria de ti",
+        id: 466,
+        titulo: "En el monte calvario",
         artista: "",
         duracion: "",
       },
     ],
-  }, */
+  },
 ];
 
 export default function CancionesPage() {
