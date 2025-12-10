@@ -11,39 +11,39 @@ import { Badge } from "@/components/ui/badge";
 import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react";
 
 const cancionesPorFecha = [
-  /*   {
+  {
     fecha: "Miercoles",
-    fechaCompleta: "Miercoles 03 de Diciembre de 2025",
-    slug: "miercoles-03",
+    fechaCompleta: "Miercoles 10 de Diciembre de 2025",
+    slug: "miercoles-10",
     tipo: "Reunión de Oración y Estudio Bíblico",
     canciones: [
       {
-        id: 12,
-        titulo: "Tu estas sentadoz",
+        id: 39,
+        titulo: "Dia tan grande",
         artista: "",
         duracion: "",
       },
       {
-        id: 41,
-        titulo: "Señor, mi Dios",
+        id: 125,
+        titulo: "Mi alma esperará",
         artista: "",
         duracion: "",
       },
       {
-        id: 128,
-        titulo: "En ti esperaré",
+        id: 99,
+        titulo: "Ciudad de Dios",
         artista: "",
         duracion: "",
       },
       {
-        id: 33,
-        titulo: "Fija tus ojos en Cristo",
+        id: 132,
+        titulo: "En ti esperamos",
         artista: "",
         duracion: "",
       },
     ],
-  }, */
-  {
+  },
+  /*  {
     fecha: "Domingo",
     fechaCompleta: "Domingo 07",
     tipo: "Reunión de Predicación y Santa Cena",
@@ -80,7 +80,7 @@ const cancionesPorFecha = [
         duracion: "",
       },
     ],
-  },
+  }, */
 ];
 
 export default function CancionesPage() {

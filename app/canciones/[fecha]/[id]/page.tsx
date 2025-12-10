@@ -1462,8 +1462,8 @@ Quiero vivir mis días para Ti.
     id: 39,
     titulo: "Día tan grande",
     artista: "",
-    fecha: "Domingo 14",
-    fechaSlug: "domingo-14",
+    fecha: "Miercoles 10",
+    fechaSlug: "miercoles-10",
     letra: `Día tan grande no puedo olvidar,
 día de gloria sin par;
 Cuando en tinieblas al verme andar,
@@ -1766,7 +1766,7 @@ Te alabo, te alabo`,
     titulo: "En ti esperamos",
     artista: "",
     fecha: "",
-    fechaSlug: "miercoles-01",
+    fechaSlug: "miercoles-10",
     letra: `Oh, líbranos del mal, Señor
 El mundo quebrantado está
 Aunque haya guerras y dolor
@@ -1807,7 +1807,7 @@ En ti esperamos, oh, Señor
     titulo: "Mi alma esperará",
     artista: "",
     fecha: "",
-    fechaSlug: "miercoles-27",
+    fechaSlug: "miercoles-10",
     letra: `Si me acecha Satanás y desmayo en mi interior,
 Si me cubre oscuridad y me agobia el temor;
 En silencio esperaré, confiaré en Ti, Señor,
@@ -1997,8 +1997,8 @@ Hasta llevarme al cielo
     id: 99,
     titulo: "Ciudad de Dios",
     artista: "",
-    fecha: "",
-    fechaSlug: "miercoles-27",
+    fecha: "Miercoles 10",
+    fechaSlug: "miercoles-10",
     letra: `Hay un lugar al que mi alma
 Anhela tanto por llegar
 Una ciudad donde hay descanso
