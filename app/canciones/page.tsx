@@ -12,32 +12,38 @@ import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react";
 
 const cancionesPorFecha = [
   {
-    fecha: "Miercoles",
-    fechaCompleta: "Miercoles 10 de Diciembre de 2025",
-    slug: "miercoles-10",
+    fecha: "Domingo",
+    fechaCompleta: "Domingo 14 de Diciembre de 2025",
+    slug: "domingo-14",
     tipo: "Reunión de Oración y Estudio Bíblico",
     canciones: [
       {
-        id: 39,
-        titulo: "Dia tan grande",
+        id: 139,
+        titulo: "Agua viva",
         artista: "",
         duracion: "",
       },
       {
-        id: 125,
-        titulo: "Mi alma esperará",
+        id: 143,
+        titulo: "Oh que amor incomparable",
         artista: "",
         duracion: "",
       },
       {
-        id: 99,
-        titulo: "Ciudad de Dios",
+        id: 87,
+        titulo: "Gracias Cristo",
         artista: "",
         duracion: "",
       },
       {
-        id: 132,
-        titulo: "En ti esperamos",
+        id: 89,
+        titulo: "Su gracia es mayor",
+        artista: "",
+        duracion: "",
+      },
+      {
+        id: 516,
+        titulo: "Que grande carga gracia es mayor",
         artista: "",
         duracion: "",
       },

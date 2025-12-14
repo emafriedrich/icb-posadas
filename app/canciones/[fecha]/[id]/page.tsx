@@ -910,8 +910,8 @@ No te detengas, ven.`,
     titulo: "Agua viva",
     artista: "",
     duracion: "",
-    fecha: "Miércoles 24",
-    fechaSlug: "miercoles-24",
+    fecha: "Domingo 14",
+    fechaSlug: "domingo-14",
     letra: `¿Muy sediento y vacío? 
 Ven y bebe agua viva.
 ¿Quebrantado y cargado?
@@ -1576,8 +1576,8 @@ Todo es de Él y para Él
     id: 89,
     titulo: "Su gracia es mayor ",
     artista: "",
-    fecha: "Miércoles 10",
-    fechaSlug: "miercoles-10",
+    fecha: "Domingo 14",
+    fechaSlug: "domingo-14",
     letra: `¿Qué amor mis pecados decide olvidar?
 Lanzados al mar no los quiere contar
 Él siendo omnisciente olvida mi error
@@ -1704,12 +1704,55 @@ Mi camino su ejemplo marcó.
 Y por darme la vida Él quiso morir.
 En la cruz mi pecado clavó.`,
   },
+  143: {
+    id: 143,
+    titulo: "Oh qué amor incomparable",
+    artista: "",
+    fecha: "Domingo 14",
+    fechaSlug: "domingo-14",
+    letra: `Oh qué amor incomparable
+Jesucristo nos mostró,
+Cuando Su preciosa sangre,
+Por nosotros derramó.
+¿De Su amor, quién no recuerda?
+¿Quién no le adorará?
+Que exaltado siempre sea
+Nuestro Príncipe de Paz.
+
+En el monte del Calvario,
+Fuentes de infinito amor;
+Aquel gran día se abrieron,
+¡Oh, qué inmerecido don!
+Cuál gran río, de lo alto,
+Sin cesar Su amor fluyó
+Sobre el mundo derramando
+Paz, justicia y amor.
+
+Que busquemos cada día
+Solo el reino del Señor,
+Y entreguemos nuestra vida,
+Como ofrenda de amor.
+Solo en Él nos gloriaremos,
+Nada más importará;
+Cristo salva, Él lo ha dicho,
+Solo en Él hay libertad.
+
+Su Palabra es mi guía
+Y me guía a no pecar;
+En mi Cristo yo confío,
+Nada en Él me ha de faltar.
+De Su plenitud derrama
+Su amor y Su poder,
+En mi ser y sin medida,
+Al rendirme a Sus pies.
+`,
+  },
   87: {
     id: 87,
     titulo: "Gracias, Cristo",
     artista: "",
-    fecha: "Miércoles 08",
-    fechaSlug: "miercoles-08",
+    fecha: "Domingo 14",
+    fechaSlug: "domingo-14",
     letra: `El misterio de la cruz 
 no puedo comprender
 La angustia que llegó a sufrir
