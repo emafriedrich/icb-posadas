@@ -1648,12 +1648,29 @@ Cuando llegue al final estos labios dirán
 No soy yo, sino Cristo en mi
 No soy yo, sino Cristo en mi`,
   },
+  23: {
+    id: 23,
+    titulo: "Te exaltaré",
+    artista: "",
+    fecha: "Miércoles 17",
+    fechaSlug: "miercoles-17",
+    letra: `Te exaltaré mi Dios, mi Rey
+y bendeciré tu nombre.
+Eternamente y para siempre
+cada día te bendeciré.
+Y alabaré tu nombre
+Eternamente y para siempre.
+Grande es Jehová 
+y digno de suprema alabanza,
+y su grandeza es inescrutable
+cada día te bendeciré.   ///`,
+  },
   68: {
     id: 68,
     titulo: "Amor inmerecido",
     artista: "",
-    fecha: "Miércoles 10",
-    fechaSlug: "miercoles-10",
+    fecha: "Miércoles 17",
+    fechaSlug: "miercoles-17",
     letra: `Dios me salvó por medio de Jesús.
 Su justicia y bondad se ven en la cruz.
 Él pagó el precio de mi maldad,
@@ -1929,8 +1946,8 @@ En Su Poder me sostendré //`,
     id: 210,
     titulo: "Que lo sabe todo el Padre",
     artista: "",
-    fecha: "Domingo 12",
-    fechaSlug: "domingo-12",
+    fecha: "Miercoles 17",
+    fechaSlug: "miercoles-17",
     letra: `Que lo sabe todo el Padre,
 Es mi certitud,
 Y que en gracia él por mí vela,
@@ -2334,8 +2351,8 @@ Le hemos de celebrar siempre jamás.`,
     titulo: "Contempla a Dios",
     artista: "",
     duracion: "4:32",
-    fecha: "Miércoles 15",
-    fechaSlug: "miercoles-15",
+    fecha: "Miércoles 17",
+    fechaSlug: "miercoles-17",
     letra: `¿Quién formó las olas al hablar?
 ¿Quién contó la arena en el mar?
 Reyes, pueblos, tiemblan a su voz

@@ -11,7 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { Music, Calendar, ArrowLeft, ChevronRight } from "lucide-react";
 
 const cancionesPorFecha = [
-  {
+  /*  {
     fecha: "Domingo",
     fechaCompleta: "Domingo 14 de Diciembre de 2025",
     slug: "domingo-14",
@@ -48,45 +48,39 @@ const cancionesPorFecha = [
         duracion: "",
       },
     ],
-  },
-  /*  {
-    fecha: "Domingo",
-    fechaCompleta: "Domingo 07",
-    tipo: "Reunión de Predicación y Santa Cena",
-    slug: "domingo-07",
+  }, */
+  {
+    fecha: "Miercoles",
+    fechaCompleta: "Miercoles 17",
+    tipo: "Reunión de Oración y Estudio Bíblico",
+    slug: "miercoles-17",
     canciones: [
       {
-        id: 129,
-        titulo: "Nuestro Dios",
+        id: 210,
+        titulo: "Que lo sabe todo el Padre",
         artista: "",
         duracion: "",
       },
       {
-        id: 123,
-        titulo: "Señor, mi Redentor y Roca",
+        id: 69,
+        titulo: "Contempla a Dios",
         artista: "",
         duracion: "",
       },
       {
-        id: 131,
-        titulo: "Habla, oh Dios",
+        id: 23,
+        titulo: "Te exaltaré",
         artista: "",
         duracion: "",
       },
       {
-        id: 417,
-        titulo: "Me Levanto",
-        artista: "",
-        duracion: "",
-      },
-      {
-        id: 466,
-        titulo: "En el monte calvario",
+        id: 68,
+        titulo: "Amor inmerecido",
         artista: "",
         duracion: "",
       },
     ],
-  }, */
+  },
 ];
 
 export default function CancionesPage() {
