@@ -8,44 +8,44 @@ import Image from "next/image";
 
 // Datos de ejemplo - en una aplicación real esto vendría de una base de datos
 export const cancionesPorFecha = {
-  /* "domingo-14": {
-    fecha: "Domingo 14",
-    fechaCompleta: "Domingo 14 de diciembre de 2025",
+  "domingo-21": {
+    fecha: "Domingo 21",
+    fechaCompleta: "Domingo 21 de diciembre de 2025",
     tipo: "Servicio Dominical",
     canciones: [
       {
-        id: 139,
-        titulo: "Agua viva",
+        id: 95,
+        titulo: "Me rindo a ti",
         artista: "",
         duracion: "",
       },
       {
-        id: 143,
-        titulo: "Oh que amor incomparable",
+        id: 54,
+        titulo: "Solo en Jesus",
         artista: "",
         duracion: "",
       },
       {
-        id: 87,
-        titulo: "Gracias Cristo",
+        id: 81,
+        titulo: "Muestra a Cristo",
         artista: "",
         duracion: "",
       },
       {
-        id: 89,
-        titulo: "Su gracia es mayor",
+        id: 385,
+        titulo: "Profundo amor de Cristo",
         artista: "",
         duracion: "",
       },
       {
-        id: 516,
-        titulo: "Que grande carga gracia es mayor",
+        id: 67,
+        titulo: "Glorioso intercambio",
         artista: "",
         duracion: "",
       },
     ],
-  }, */
-   "miercoles-17": {
+  },
+  /*   "miercoles-17": {
     fecha: "Miercoles 17",
     fechaCompleta: "Miercoles 17 de Diciembre de 2025",
     tipo: "Reunión de Oración y Estudio Bíblico",
@@ -75,7 +75,7 @@ export const cancionesPorFecha = {
         duracion: "",
       },
     ],
-  },  
+  },   */
 };
 
 interface PageProps {

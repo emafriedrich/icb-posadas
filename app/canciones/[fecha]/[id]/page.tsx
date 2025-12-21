@@ -1013,11 +1013,44 @@ Fui perdonado en la cruz  //
   },
   67: {
     id: 67,
-    titulo: "Mirarte sólo a ti Señor",
+    titulo: "Glorioso intercambio",
     artista: "",
     duracion: "",
     fecha: "Domingo 21",
     fechaSlug: "domingo-21",
+    letra: `¿Cómo puede ser que el Bueno y justo 
+Se hizo hombre y fuera a morir 
+Por el más vil pecador? 
+¿Cómo siendo yo Su enemigo 
+El sufrimiento en mi lugar tomó 
+En aquella cruz? 
+Y cargó mi maldad sobre Él 
+Su rectitud, por la fe, mía es 
+ 
+Aleluya, glorioso intercambio 
+Oh cuan gran misterio 
+Que por gracia salvo soy 
+Aleluya, gloria sea a Cristo 
+Por Su sacrificio 
+Declarado justo soy en Él 
+
+¿Cómo es posible que en Jesús 
+Como a su Hijo Él me recibió 
+Y Su nombre llevo hoy? 
+Su perfecta vida de obediencia al Padre 
+Al yo creer, Él me otorgó 
+Y perdón me dio 
+Pues cargó mi maldad sobre Él 
+Su rectitud, por la fe, mía es.
+`,
+  },
+  672: {
+    id: 672,
+    titulo: "Mirarte sólo a ti Señor",
+    artista: "",
+    duracion: "",
+    fecha: "Domingo 21",
+    fechaSlug: "domingo-1",
     letra: `¿Cómo puede ser que el Bueno y justo 
 Se hizo hombre y fuera a morir 
 Por el más vil pecador? 
@@ -1904,7 +1937,7 @@ Nuestro Salvador.`,
     titulo: "Sólo en Jesús",
     artista: "",
     fecha: "",
-    fechaSlug: "miercoles-27",
+    fechaSlug: "domingo-21",
     letra: `Sólo en Jesús esta mi fe, 
 Mi esperanza y mi canción, 
 Piedra Angular, firme sostén, 
@@ -2090,6 +2123,111 @@ Ya no hay llanto ni dolor;
 No hay más prueba ni aflicción
 La muerte sólo una memoria,
 Recuerdo de la redención
+`,
+  },
+  385: {
+    id: 385,
+    titulo: "Profundo amor de Cristo",
+    artista: "",
+    fecha: "Domingo 21",
+    fechaSlug: "domingo-21",
+    letra: `¡Oh, profundo amor de Cristo,
+Vasto, inmerecido don!
+Cual océano infinito,
+Ya me inunda el corazón.
+Me rodea, me sostiene
+La corriente de su amor,
+Llévame continuamente,
+Hacia el gozo del Señor.
+
+¡Oh, profundo amor de Cristo!
+Sus loores proclamad,
+Pues su amor nos satisfizo
+Y no cambiará jamás.
+¡Cómo cuida a sus amados,
+Redimidos por su cruz!
+Comunión con El gozamos
+Cuando andamos en la luz.
+
+¡Oh, profundo amor de Cristo,
+Único, supremo amor!
+Cual un vasto mar bendito,
+Cual hogar al viador.
+¡Oh, profundo amor de Cristo!
+Pura gloria es para mí,
+Que me eleva salvo y listo,
+Hacia el cielo, hacia Ti.`,
+  },
+  81: {
+    id: 81,
+    titulo: "Muestra a Cristo",
+    artista: "",
+    fecha: "Domingo 21",
+    fechaSlug: "domingo-21",
+    letra: `Prepara, oh Dios, mi corazón
+Para recibir
+Rompe el duro suelo en mí
+Ayúdame a creer
+Tu palabra siembra en mí
+Su fruto haz crecer
+Haz que pueda escuchar
+Guíame en Tu verdad
+
+
+Muestra a Cristo, muestra a Cristo
+Revela, oh Dios, Tu gloria
+A través de Tu verdad
+Hasta que todos confiesen "Cristo es Señor"
+
+Viva luz es Tu Verdad
+En mi oscuridad
+Me guarda en la tentación
+Sabiduría me da
+Manjar a los hambrientos
+Y a esclavos, libertad
+Riqueza al alma pobre es
+Ven, háblame Señor
+
+
+¿Dónde más iré, Dios?
+¿Dónde más iré?
+Tienes palabras de vida eterna`,
+  },
+  95: {
+    id: 95,
+    titulo: "Me rindo a Ti",
+    artista: "",
+    fecha: "Domingo 21",
+    fechaSlug: "domingo-21",
+    letra: `Traigo mis culpas al pie de la cruz
+Mis ansiedades sobre ti Jesús
+Todos mis planes rindo ante ti
+Quiero en mi vida menos de mí.
+
+Pierdo mi vida para ganar
+La vida abundante que solo tú das
+Pongo mis ojos y mi corazón
+La recompensa; Jesús mi señor
+
+Mi alma de ti tiene sed
+Satisface hoy mi ser
+Señor avívame
+Tu gran amor conocí
+Ya no vivo para mí
+Yo me rindo a ti
+
+Llena mi mente de tu verdad
+Guarda mis pasos en tu voluntad
+Que mucho fruto en mi pueda ver
+Al  cada día en ti permanecer
+
+La fuente eres Tú De gracia y poder
+Dependo de ti Señor Me acerco a Tú cruz
+Bendigo Tus pies Aviva mi corazón
+
+La fuente eres Tú De gracia y poder
+Dependo de ti Señor Me acerco a Tú cruz
+Tendido a Tus pies Aviva mi corazón...
 `,
   },
   104: {
